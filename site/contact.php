@@ -43,25 +43,30 @@
             <div class="col-lg-12">
                 <hr>
                 <h2 class="intro-text text-center">Contact
-                    <strong>business casual</strong>
+                    <strong>Prashant Solar</strong>
                 </h2>
                 <hr>
             </div>
             <div class="col-md-8">
                 <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
                 <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                        src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.304624319909!2d73.19185924059789!3d19.181892792634713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7935d31bcb43f%3A0xf096adeb330420e0!2s73%2F1%2C+Additional+M.I.D.C%2C+Anand+Nagar%2C+Additional+M.I.D.C%2C+Ambernath%2C+Maharashtra+421506!5e0!3m2!1sen!2sin!4v1488659071061"></iframe>
             </div>
             <div class="col-md-4">
                 <p>Phone:
-                    <strong>123.456.7890</strong>
+                    <strong><a href="tel:+91 98732 55548​⁠​">+91 98732 55548</a>​⁠​</strong>
                 </p>
                 <p>Email:
-                    <strong><a href="mailto:name@example.com">name@example.com</a></strong>
+                    <strong><a href="mailto:sudhansh2006@yahoo.com">sudhansh2006@yahoo.com</a></strong>
                 </p>
                 <p>Address:
-                    <strong>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</strong>
+                    <strong>
+                        W-75, Additional M. I. D. C, Anand Nagar,
+                        Ambernath East,
+                        <br>District Thane, Near
+                        Panchatara Hotel
+                        <br>Mumbai - 421506, Maharashtra, India
+                    </strong>
                 </p>
             </div>
             <div class="clearfix"></div>
@@ -79,24 +84,24 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, vitae, distinctio, possimus
                     repudiandae cupiditate ipsum excepturi dicta neque eaque voluptates tempora veniam esse earum
                     sapiente optio deleniti consequuntur eos voluptatem.</p>
-                <form role="form">
+                <form role="form" method="post" action="form-handler-nodb.php">
                     <div class="row">
                         <div class="form-group col-lg-4">
                             <label>Name</label>
-                            <input type="text" class="form-control">
+                            <input type="text" name="name" class="form-control">
                         </div>
                         <div class="form-group col-lg-4">
                             <label>Email Address</label>
-                            <input type="email" class="form-control">
+                            <input type="email" name="email" class="form-control">
                         </div>
                         <div class="form-group col-lg-4">
                             <label>Phone Number</label>
-                            <input type="tel" class="form-control">
+                            <input type="tel" name="phone" class="form-control">
                         </div>
                         <div class="clearfix"></div>
                         <div class="form-group col-lg-12">
                             <label>Message</label>
-                            <textarea class="form-control" rows="6"></textarea>
+                            <textarea class="form-control" name="message" rows="6"></textarea>
                         </div>
                         <div class="form-group col-lg-12">
                             <input type="hidden" name="save" value="contact">
@@ -111,15 +116,8 @@
 </div>
 <!-- /.container -->
 
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <p>Copyright &copy; Your Website 2014</p>
-            </div>
-        </div>
-    </div>
-</footer>
+<!--footer-->
+<?php include 'includes/footer.php'; ?>
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>

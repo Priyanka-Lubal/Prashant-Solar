@@ -48,9 +48,11 @@
                 <hr class="tagline-divider">
                 <h2>
                     <small>By
-                        <strong>Prashant Plastic Industries</strong>
+                        <strong>Prashant Plastic Industries LLP</strong>
                     </small>
                 </h2>
+                <hr class="tagline-divider">
+                <br>
                 <div id="carousel-example-generic" class="carousel slide">
                     <!-- Indicators -->
                     <ol class="carousel-indicators hidden-xs">
@@ -121,15 +123,9 @@
 </div>
 <!-- /.container -->
 
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <p>Copyright &copy; Your Website 2014</p>
-            </div>
-        </div>
-    </div>
-</footer>
+<!--footer-->
+<?php include 'includes/footer.php'; ?>
+
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
