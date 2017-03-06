@@ -1,21 +1,44 @@
 <?php
-// Emails form data to you and the person submitting the form
-// This version requires no database.
-// Set your email below
-$myemail = "meetgopani1996@gmail.com"; // Replace with your email, please
-
-// Receive and sanitize input
+require 'PHPMailer/PHPMailerAutoload.php';
+$to = $_POST['email'];
 $name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
-
-// set up email
 $msg = "New contact form submission!\nName: " . $name . "\nEmail: " . $email . "\nPhone: " . $phone . "\nEmail: " . $email;
-$msg = wordwrap($msg, 70);
-$headers = "From: meetgopani1996@gmail.com" . "\r\n";
-mail($myemail, "New Form Submission", $msg, "From: meetgopani1996@gmail.com");
-mail($email, "Thank you for your form submission", $msg, "From: meetgopani1996@gmail.com");
-echo 'Thank you for your submission.  Please <a href="index.php">Click here to return to our homepage.';
+//echo $to;
+$to1 = '';
+$pass = '';
+$flag = 0;
+$mail = new PHPMailer;
+{
+//$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
-?>
+    $mail->isSMTP();                                      // Set mailer to use SMTP
+    $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+    $mail->SMTPAuth = true;                               // Enable SMTP authentication
+    $mail->Username = 'meetgopani1996@gmail.com';                 // SMTP username
+    $mail->Password = 'mahavir123';                           // SMTP password
+    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+    $mail->Port = 587;                                    // TCP port to connect to
+
+    $mail->setFrom('meetgopani1996@gmail.com', 'Prashant Solar');
+    $mail->addAddress($to);     // Add a recipient
+    /*$mail->addAddress('ellen@example.com');               // Name is optional
+    $mail->addReplyTo('info@example.com', 'Information');
+    $mail->addCC('cc@example.com');
+    $mail->addBCC('bcc@example.com');*/
+
+    $mail->isHTML(true);                                  // Set email format to HTML
+
+    $mail->Subject = 'Prashant Solar';
+    $mail->Body = $msg;
+
+    if (!$mail->send()) {
+        header("location: contact.php?connection_failure=true");
+        echo 'Mailer Error: ' . $mail->ErrorInfo;
+    } else {
+        header("location: contact.php?invalid_id=false");
+        echo "Done with submission";
+    }
+}
