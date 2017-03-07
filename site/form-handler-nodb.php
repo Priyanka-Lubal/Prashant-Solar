@@ -1,11 +1,10 @@
 <?php
 require 'PHPMailer/PHPMailerAutoload.php';
-$to = $_POST['email'];
 $name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
-$msg = "New contact form submission!\nName: " . $name . "\nEmail: " . $email . "\nPhone: " . $phone . "\nEmail: " . $email;
+$msg = "New contact form submission!\nName: " . $name . "\nEmail: " . $email . "\nPhone: " . $phone . "\nMessage: " . $message;
 //echo $to;
 $to1 = '';
 $pass = '';
@@ -23,7 +22,7 @@ $mail = new PHPMailer;
     $mail->Port = 587;                                    // TCP port to connect to
 
     $mail->setFrom('meetgopani1996@gmail.com', 'Prashant Solar');
-    $mail->addAddress($to);     // Add a recipient
+    $mail->addAddress((string)$email);     // Add a recipient
     /*$mail->addAddress('ellen@example.com');               // Name is optional
     $mail->addReplyTo('info@example.com', 'Information');
     $mail->addCC('cc@example.com');
