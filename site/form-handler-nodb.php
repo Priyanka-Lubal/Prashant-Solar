@@ -35,7 +35,7 @@ $mail = new PHPMailer;
     $mail->Body = $msg;
 
     if (!$mail->send()) {
-        header("location: contact.php?connection_failure=true");
+        header("location: contact.php?connection_failure=mailnahigaya");
         echo 'Mailer Error: ' . $mail->ErrorInfo;
     } else {
         header("location: contact.php");
