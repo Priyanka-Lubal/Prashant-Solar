@@ -61,7 +61,7 @@
                         - 1 x 150 W Televisions, 3 x 40 W Tube lights, 3 x 14 W CFL bulbs, 2 x 80 W Ceiling fans.
                     </li>
                     <li>Couples with any kind of battery and inverter make.</li>
-                    <li>Prashant Solar panels are ISO 9001 (Quality Management), IEC 61215, IEC61730, IEC61701 certified
+                    <li>Prashant Solar panels are ISO 9001 (Quality Management).IEC 61215, IEC61730, IEC61701 certified
                         and ISO 45001.
                     </li>
                 </ul>
