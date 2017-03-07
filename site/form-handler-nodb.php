@@ -38,7 +38,7 @@ $mail = new PHPMailer;
         header("location: contact.php?connection_failure=true");
         echo 'Mailer Error: ' . $mail->ErrorInfo;
     } else {
-        header("location: contact.php?invalid_id=false");
+        header("location: contact.php");
         echo "Done with submission";
     }
 }
