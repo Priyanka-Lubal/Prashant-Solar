@@ -46,23 +46,23 @@
                     <strong>CERTIFICATES AND PRODUCTS</strong>
                 </h2>
                 <hr>
-                <img class="img-responsive img-border img-left" src="img/image2.jpg" alt="">
+                <img class="img-responsive img-border img-left" src="img/image4.jpg" alt="">
                 <hr class="visible-xs">
                 <ul type="1">
-                    <li><h3>Prashant Solar products ranges from 20W to 300W. The cell efficiency of the products is 18%.</h3>
+                    <li>Prashant Solar products ranges from 20W to 300W. The cell efficiency of the products is 18%.
                     </li>
-                    <li><h3>The panels are designed in a such a way that gives maximum power in frequency of the sun
-                        light.</h3>
+                    <li>The panels are designed in a such a way that gives maximum power in frequency of the sun
+                        light.
                     </li>
-                    <li><h3>The device stores the surplus electricity to be used later or can be netted off with the
-                        electricity bill.</h3>
+                    <li>The device stores the surplus electricity to be used later or can be netted off with the
+                        electricity bill.
                     </li>
-                    <li><h3>Power your home with Prashant Solar panel for upto 3 hours for a typical household load of 500 W
-                        - 1 x 150 W Televisions, 3 x 40 W Tube lights, 3 x 14 W CFL bulbs, 2 x 80 W Ceiling fans.</h3>
+                    <li>Power your home with Prashant Solar panel for upto 3 hours for a typical household load of 500 W
+                        - 1 x 150 W Televisions, 3 x 40 W Tube lights, 3 x 14 W CFL bulbs, 2 x 80 W Ceiling fans.
                     </li>
-                    <li><h3>Couples with any kind of battery and inverter make.</h3></li>
-                    <li><h3>Prashant Solar panels are ISO 9001 (Quality Management), IEC 61215, IEC61730, IEC61701 certified
-                        and ISO 45001.</h3>
+                    <li>Couples with any kind of battery and inverter make.</li>
+                    <li>Prashant Solar panels are ISO 9001 (Quality Management), IEC 61215, IEC61730, IEC61701 certified
+                        and ISO 45001.
                     </li>
                 </ul>
             </div>
@@ -77,19 +77,19 @@
                     <strong>Potential Owner Benefits and Government Incentives</strong>
                 </h2>
                 <hr>
-                <img class="img-responsive img-border img-left" src="img/image2.jpg" alt="">
+                <img class="img-responsive img-border img-left" src="img/image5.jpg" alt="">
                 <hr class="visible-xs">
                 <ul type="1">
 				<hr class="visible-xs">
-                    <li><h3>Prashant Solar can assist buyer to understand and help them maximize the financial benefits that may arise from Government incentives such as rebates, tax credits, and even a Feed-In tariff be it Gross or Net.</h3>
+                    <li>Prashant Solar can assist buyer to understand and help them maximize the financial benefits that may arise from Government incentives such as rebates, tax credits, and even a Feed-In tariff be it Gross or Net.
                     </li>
-                    <li><h3>Renewable Energy Credits (RECs) - In certain circumstances, the PV home owner can be rewarded through the sale of emission off-sets and/or Renewable Energy Credits (RECs).</h3>
+                    <li>Renewable Energy Credits (RECs) - In certain circumstances, the PV home owner can be rewarded through the sale of emission off-sets and/or Renewable Energy Credits (RECs).
                     </li>
-                    <li><h3>Peak Electricity Cost Savings & Feed in Tariffs.</h3>
+                    <li>Peak Electricity Cost Savings & Feed in Tariffs.
                     </li>
-                    <li><h3>Hedge Value - Energy prices are volatile and there is the inevitable prospect of much higher electricity prices. Prashant Solar modules will help cushion these effects, especially the anticipated electricity price hikes at peak times.</h3>
+                    <li>Hedge Value - Energy prices are volatile and there is the inevitable prospect of much higher electricity prices. Prashant Solar modules will help cushion these effects, especially the anticipated electricity price hikes at peak times.
                     </li>
-                    <li><h3>Independence and Security.</h3></li>
+                    <li>Independence and Security.</li>
                 </ul>
             </div>
         </div>
