@@ -106,20 +106,38 @@
             </div>
             <div class="col-sm-4 text-center">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                <h3>John Smith
-                    <small>Job Title</small>
+                <h3>Sudhansh Singh
+                     <br><small>Operations Manager</small>
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                <h3>John Smith
-                    <small>Job Title</small>
+                <h3>Prashant Singh
+                    <br><small>Chief Executive Officer</small>
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                <h3>John Smith
-                    <small>Job Title</small>
+                <h3>Virendra Singh
+                    <br><small>Co Founder</small>
+                </h3>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="box">
+            <div class="col-sm-4 text-center">
+                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <h3>Rajendra Singh
+                     <br><small>Co Founder</small>
+                </h3>
+            </div>
+            <div class="col-sm-4 text-center">
+                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <h3>Himanshu Singh
+                    <br><small>Chief Productions Officer</small>
                 </h3>
             </div>
             <div class="clearfix"></div>
