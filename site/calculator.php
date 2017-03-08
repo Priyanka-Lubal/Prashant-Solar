@@ -34,30 +34,6 @@
 
 <body>
 
-<?php include 'includes/header.php'; ?>
-
-<div class="container">
-
-    <div class="row">
-        <div class="box">
-            <div class="col-lg-12 text-center">
-                <div id="carousel-example-generic" class="carousel slide">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators hidden-xs">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--footer-->
-<?php include 'includes/footer.php'; ?>
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
