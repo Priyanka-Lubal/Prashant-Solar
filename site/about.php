@@ -11,7 +11,7 @@
 
     <title>Prashant-Solar</title>
 
-    <!-- Boottrap Core CSS -->
+    <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
