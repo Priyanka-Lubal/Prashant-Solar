@@ -81,9 +81,7 @@
                     <strong>form</strong>
                 </h2>
                 <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, vitae, distinctio, possimus
-                    repudiandae cupiditate ipsum excepturi dicta neque eaque voluptates tempora veniam esse earum
-                    sapiente optio deleniti consequuntur eos voluptatem.</p>
+                <p>Please leave us your contact and email id.!!</p>
                 <form role="form" method="post" action="form-handler-nodb.php">
                     <div class="row">
                         <div class="form-group col-lg-4">

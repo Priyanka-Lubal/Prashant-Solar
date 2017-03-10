@@ -6,9 +6,30 @@
  * Time: 01:02
  */
 ?>
+<link href="css/elements.css" rel="stylesheet">
+<script src="js/my_js.js"></script>
+
+<div id="abc">
+    <!-- Popup Div Starts Here -->
+    <div id="popupContact">
+        <!-- Contact Us Form -->
+        <form action="#" id="form1" method="post" name="form">
+            <img id="close" src="images/3.png" onclick ="div_hide()">
+            <h2>Contact Us</h2>
+            <hr>
+            <input id="name" name="name" placeholder="Name" type="text"><br>
+            <input id="email" name="email" placeholder="Email" type="text"><br>
+            <textarea id="msg" name="message" placeholder="Message"></textarea><br>
+            <a href="javascript:%20check_empty()" id="submit1">Send</a>
+        </form>
+    </div>
+    <!-- Popup Div Ends Here -->
+</div>
 
 <div class="brand">Prashant Solar</div>
 <div class="address-bar">Green Is The New Gold</div>
+
+
 
 <!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">
@@ -38,7 +59,7 @@
                     <a href="blog.php">Projects</a>
                 </li>
                 <li>
-                    <a href="calculator.php">Calculator</a>
+                    <a href="#" onclick="popup()">Calculator</a>
                 </li>
                 <li>
                     <a href="contact.php">Contact</a>
