@@ -12,7 +12,6 @@ CSS settings for HTML div Exact Center
     position:fixed;
     background-color:#313131;
     overflow:auto;
-    z-index:999;
 }
 img#close {
     position:absolute;
@@ -34,7 +33,7 @@ div#popupContact {
     border:2px solid gray;
     border-radius:10px;
     font-family:raleway;
-    background-color:#fff
+    background-color:#fff;
 }
 
 #name {

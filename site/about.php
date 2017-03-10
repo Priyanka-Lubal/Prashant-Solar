@@ -140,6 +140,12 @@
                     <br><small>Chief Productions Officer</small>
                 </h3>
             </div>
+            <div class="col-sm-4 text-center">
+                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <h3>Ankit Handa
+                    <br><small>Commercial Manager</small>
+                </h3>
+            </div>
             <div class="clearfix"></div>
         </div>
     </div>

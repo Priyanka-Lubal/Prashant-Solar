@@ -9,18 +9,17 @@
 <link href="css/elements.css" rel="stylesheet">
 <script src="js/my_js.js"></script>
 
-<div id="abc">
+<div class="" id="abc">
     <!-- Popup Div Starts Here -->
     <div id="popupContact">
         <!-- Contact Us Form -->
         <form action="#" id="form1" method="post" name="form">
             <img id="close" src="images/3.png" onclick ="div_hide()">
-            <h2>Contact Us</h2>
+            <h2>Calculator</h2>
             <hr>
-            <input id="name" name="name" placeholder="Name" type="text"><br>
-            <input id="email" name="email" placeholder="Email" type="text"><br>
-            <textarea id="msg" name="message" placeholder="Message"></textarea><br>
-            <a href="javascript:%20check_empty()" id="submit1">Send</a>
+            <strong>Enter Rooftop area</strong>
+            <input id="name" name="name" placeholder="Enter in squaremeter" type="text"><br>
+            <a href="calculator.php" id="submit1">Submit</a>
         </form>
     </div>
     <!-- Popup Div Ends Here -->
