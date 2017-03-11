@@ -17,20 +17,20 @@ $mail = new PHPMailer;
     $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'meetgopani1996@gmail.com';                 // SMTP username
-    $mail->Password = 'mahavir123';                           // SMTP password
+    $mail->Password = 'password';                           // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;                                    // TCP port to connect to
 
-    $mail->setFrom('meetgopani1996@gmail.com', 'Prashant Solar');
+    $mail->setFrom('meetgopani1996@gmail.com', 'Marketing Team');
     $mail->addAddress((string)$email);     // Add a recipient
     /*$mail->addAddress('ellen@example.com');               // Name is optional
-    $mail->addReplyTo('info@example.com', 'Information');
-    $mail->addCC('cc@example.com');
-    $mail->addBCC('bcc@example.com');*/
+    $mail->addReplyTo('info@example.com', 'Information');*/
+    $mail->addCC('meetgopani1996@gmail.com');
+    $mail->addBCC('priyanka.lubal33@gmail.com');
 
     $mail->isHTML(true);                                  // Set email format to HTML
 
-    $mail->Subject = 'Prashant Solar';
+    $mail->Subject = 'Thank you for your form submission';
     $mail->Body = $msg;
 
     if (!$mail->send()) {
