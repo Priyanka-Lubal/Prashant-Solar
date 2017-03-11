@@ -123,6 +123,10 @@
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 
+<!--popup-->
+<?php include 'includes/popup.php'; ?>
+
+
 </body>
 
 </html>
