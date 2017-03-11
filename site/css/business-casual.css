@@ -11,7 +11,6 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    z-index: 1;
 }
 
 h1,
@@ -46,14 +45,12 @@ hr {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
-    position: fixed;
 }
 
 .navbar-nav {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
-    position: fixed;
 }
 
 .img-full {
@@ -153,7 +150,6 @@ footer p {
 
     .navbar {
         border-radius: 0;
-        z-index: 1;
     }
 
     .navbar-header {
