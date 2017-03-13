@@ -36,6 +36,7 @@
             <hr>
             <label>Your Input is:</label>
             <p><span id="display"></span></p>
+            <a href="calculator.php" id="submit1">To know more</a>
         </form>
     </div>
     <!-- Popup Div Ends Here -->
