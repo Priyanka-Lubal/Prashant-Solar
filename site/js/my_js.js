@@ -2,9 +2,27 @@
  * Created by acer on 3/8/2017.
  */
 // Validating Empty Field
+var area;
+var solarsystem;
+var saved;
+function save() {
+    area = document.getElementById('name').value;
+    if(area >= 100)
+    {
+        solarsystem = Math.floor(area/100);
+        saved = solarsystem*120;
+    }
+    else
+    {
+        solarsystem = 0;
+        saved = 0;
+    }
+}
+
 function showinput() {
-    document.getElementById('display').innerHTML =
-        document.getElementById('name').value;
+    document.getElementById('display').innerHTML = area;
+    document.getElementById('unit').innerHTML = saved;
+    document.getElementById('solar').innerHTML = solarsystem;
 }
 
 function submit() {
@@ -23,6 +41,7 @@ function check_empty() {
 //Function To Display Popup
 function popup() {
     document.getElementById('abc').style.display = "block";
+    hide();
 }
 
 
@@ -34,8 +53,3 @@ function div_hide(){
 function hide() {
     document.getElementById('xyz').style.display = "none";
  }
-
-function save() {
-    var num;
-    num = document.getElementById('name').value;
-}
