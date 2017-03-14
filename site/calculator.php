@@ -53,7 +53,6 @@
                     <br>
                 </h2>
                 <script>
-
                     function calc_load() {
 
                         total_load = 0;
