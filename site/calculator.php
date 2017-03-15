@@ -62,7 +62,9 @@
 
                         }
 
-                        $('#total_load').val(total_load);
+//                        $('#total_load').val(total_load);
+
+                        document.getElementById('total_load').innerHTML = total_load;
                     }
                 </script>
                 <form method="post" action="calculator.php?action=method2_process" name="form1" id="form1">
@@ -83,7 +85,7 @@
                             <td>2' TubeLight LED</td>
                             <td>8<input type="hidden" name="watt_1" id="watt_1" value="8"></td>
                             <td><input type="text" name="watt_1" id="watt_1" value="0" class="form-control"
-                                       style="max-width:70px; max-height:30px; ">
+                                       style="max-width:70px; max-height:30px; " onchange="calc_load()">
                             </td>
                         </tr>
                         <tr>
@@ -224,7 +226,8 @@
                         <tr>
                             <td><b>Total Load</b></td>
                             <td>
-                                <!-- <input type="button" class="btn btn-sm btn-default" onclick="javascript:calc_load();" value="Recalculate Load"> --></td>
+                                <input type="button" class="btn btn-sm btn-default" onclick="calc_load();"
+                                       value="Recalculate Load"></td>
                             <td><input type="text" name="total_load" id="total_load" value="0" class="form-control"
                                        style="max-width:100px; max-height:30px;">
                                 <div class="error_holder"></div>
