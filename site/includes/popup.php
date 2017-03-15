@@ -34,7 +34,7 @@
             <img id="close" src="img/close-128.png" height="25px" onclick="hide()">
             <h2>Calculator</h2>
             <hr>
-            <h4>Congratualations!!!!</h4>
+            <h1>Congratualations!!!!</h1>
             <label>You can save upto </label> <span id="unit"></span><label> units per month by installing a <span id="solar"></span> KWP solar system rooftop system on <span id="display"></span>  sq.ft of roof space.<br><br>
             <a href="calculator.php" id="submit1">To know more</a><br>
                 <a href="#" onclick="popup()"><u>Re-Enter Rooftop area</u></a>

@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+<link href="css/elements.css" rel="stylesheet">
+<script src="js/my_js.js"></script>
+
+
 <head>
 
     <meta charset="utf-8">
@@ -49,6 +54,7 @@
             </div>
             <div class="col-lg-12 text-center">
                 <img class="img-responsive img-border img-full" src="img/1.jpg" alt="hello">
+                <div class="col-md-8">
                 <h2>Calculate the Load
                     <br>
                 </h2>
@@ -77,7 +83,7 @@
                         <tr>
                             <td>4' TubeLight LED</td>
                             <td>15<input type="hidden" name="watt_0" id="watt_0" value="15"></td>
-                            <td><input type="text" name="watt_0" id="qty_0" value="0" class="form-control"
+                            <td><input type="text" name="watt_0" id="qty_0" placeholder="0" class="form-control"
                                        style="max-width:70px; max-height:30px; " onchange="calc_load()">
                             </td>
                         </tr>
@@ -237,6 +243,11 @@
                     <p><input type="submit" class="btn btn-primary" value="Submit"/></p>
                 </form>
 
+            </div>
+                <div class="col-md-8">
+                    <p><h1>Rooftop area is:<span id="rooftop"></span></h1>
+                    <h1>Total energy generated in one year</h1>
+                </div>
             </div>
         </div>
     </div>

@@ -48,13 +48,6 @@
                     <small>Welcome to</small>
                 </h2>
                 <h1 class="brand-name">Prashant Solar</h1>
-                <hr class="tagline-divider">
-                <h2>
-                    <small>By
-                        <strong>Prashant Plastic Industries LLP</strong>
-                    </small>
-                </h2>
-                <hr class="tagline-divider">
                 <br>
                 <div id="carousel-example-generic" class="carousel slide">
                     <!-- Indicators -->
@@ -93,8 +86,8 @@
         <div class="box">
             <div class="col-lg-12">
                 <hr>
-                <h2 class="intro-text text-center">About
-                    <strong>Prashant Solar</strong>
+                <h2 class="intro-text text-center">
+                    <strong>About</strong>
                 </h2>
                 <hr>
                 <img class="img-responsive img-border img-left" src="img/background.jpg" alt="">
