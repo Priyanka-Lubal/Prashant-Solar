@@ -233,8 +233,7 @@
                     </table>
                     <p><input type="submit" class="btn btn-primary" value="Submit"/></p>
                 </form>
-                <a href="#" class="btn btn-default btn-lg">Read More</a>
-                <hr>
+
             </div>
         </div>
     </div>
