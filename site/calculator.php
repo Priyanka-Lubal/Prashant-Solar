@@ -240,6 +240,10 @@
     </div>
 </div>
 
+
+<!--footer-->
+<?php include 'includes/footer.php'; ?>
+
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
 
