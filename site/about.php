@@ -68,8 +68,8 @@
             </div>
         </div>
     </div>
-	
-	<div class="row">
+
+    <div class="row">
         <div class="box">
             <div class="col-lg-12">
                 <hr>
@@ -80,14 +80,19 @@
                 <img class="img-responsive img-border img-left" src="img/image5.jpg" alt="">
                 <hr class="visible-xs">
                 <ul type="1">
-				<hr class="visible-xs">
-                    <li>Prashant Solar can assist buyer to understand and help them maximize the financial benefits that may arise from Government incentives such as rebates, tax credits, and even a Feed-In tariff be it Gross or Net.
+                    <hr class="visible-xs">
+                    <li>Prashant Solar can assist buyer to understand and help them maximize the financial benefits that
+                        may arise from Government incentives such as rebates, tax credits, and even a Feed-In tariff be
+                        it Gross or Net.
                     </li>
-                    <li>Renewable Energy Credits (RECs) - In certain circumstances, the PV home owner can be rewarded through the sale of emission off-sets and/or Renewable Energy Credits (RECs).
+                    <li>Renewable Energy Credits (RECs) - In certain circumstances, the PV home owner can be rewarded
+                        through the sale of emission off-sets and/or Renewable Energy Credits (RECs).
                     </li>
                     <li>Peak Electricity Cost Savings & Feed in Tariffs.
                     </li>
-                    <li>Hedge Value - Energy prices are volatile and there is the inevitable prospect of much higher electricity prices. Prashant Solar modules will help cushion these effects, especially the anticipated electricity price hikes at peak times.
+                    <li>Hedge Value - Energy prices are volatile and there is the inevitable prospect of much higher
+                        electricity prices. Prashant Solar modules will help cushion these effects, especially the
+                        anticipated electricity price hikes at peak times.
                     </li>
                     <li>Independence and Security.</li>
                 </ul>
@@ -107,49 +112,54 @@
             <div class="col-sm-4 text-center">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <h3>Sudhansh Singh
-                     <br><small>Operations Manager</small>
+                    <br>
+                    <small>Operations Manager</small>
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <h3>Prashant Singh
-                    <br><small>Chief Executive Officer</small>
+                    <br>
+                    <small>Chief Executive Officer</small>
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <h3>Virendra Singh
-                    <br><small>Co Founder</small>
+                    <br>
+                    <small>Co Founder</small>
                 </h3>
             </div>
             <div class="clearfix"></div>
-        </div>
-    </div>
 
-    <div class="row">
-        <div class="box">
             <div class="col-sm-4 text-center">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <h3>Rajendra Singh
-                     <br><small>Co Founder</small>
+                    <br>
+                    <small>Co Founder</small>
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <h3>Himanshu Singh
-                    <br><small>Chief Productions Officer</small>
+                    <br>
+                    <small>Chief Productions Officer</small>
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <h3>Ankit Handa
-                    <br><small>Commercial Manager</small>
+                    <br>
+                    <small>Commercial Manager</small>
                 </h3>
             </div>
             <div class="clearfix"></div>
         </div>
     </div>
 
+    <a id="back-to-top" href="#" class="btn btn-default btn-lg back-to-top" role="button"
+       title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span
+                class="glyphicon glyphicon-chevron-up"></span></a>
 </div>
 <!-- /.container -->
 
