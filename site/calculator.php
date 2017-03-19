@@ -54,10 +54,11 @@
             </div>
             <div class="col-lg-12 text-center">
                 <img class="img-responsive img-border img-full" src="img/1.jpg" alt="hello">
+                <h2>Calculate the Load
+                    <br>
+                </h2>
                 <div class="col-md-8" style="float: left; width: 50%">
-                    <h2>Calculate the Load
-                        <br>
-                    </h2>
+
                     <script>
                         function calc_load() {
 
