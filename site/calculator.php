@@ -54,7 +54,7 @@
             </div>
             <div class="col-lg-12 text-center">
                 <img class="img-responsive img-border img-full" src="img/1.jpg" alt="hello">
-                <div class="col-md-8">
+                <div class="col-md-8" style="float: left; width: 50%">
                     <h2>Calculate the Load
                         <br>
                     </h2>
@@ -232,8 +232,6 @@
                             <tr>
                                 <td><b>Total Load</b></td>
                                 <td>
-                                    <!--                                <input type="button" class="btn btn-sm btn-default" onclick="calc_load();"-->
-                                    <!--                                       value="Recalculate Load"></td>-->
                                 <td><input type="text" name="total_load" id="total_load" value="0" class="form-control"
                                            style="max-width:100px; max-height:30px;">
                                     <div class="error_holder"></div>
@@ -244,7 +242,7 @@
                     </form>
 
                 </div>
-                <div class="col-md-8">
+                <div id="right" style="float: right; width: 50%">
                     <p>
                     <h1>Rooftop area is:<span id="rooftop"></span></h1>
                     <h1>Total energy generated in one year</h1>
