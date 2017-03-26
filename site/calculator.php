@@ -2,8 +2,7 @@
 <html lang="en">
 
 
-<link href="css/elements.css" rel="stylesheet">
-<script src="js/my_js.js"></script>
+
 
 
 <head>
@@ -27,6 +26,8 @@
           rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic"
           rel="stylesheet" type="text/css">
+    <link href="css/elements.css" rel="stylesheet">
+    <script src="js/my_js.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,7 +38,7 @@
 
 </head>
 
-<body>
+<body onload="display_in_calculator()">
 
 <?php include 'includes/header.php'; ?>
 
@@ -245,8 +246,13 @@
                 </div>
                 <div id="right" style="float: right; width: 50%">
                     <p>
-                    <h1>Rooftop area is:<span id="rooftop"></span></h1>
-                    <h1>Total energy generated in one year</h1>
+                    <div class="boxed red">
+                        <h2>Rooftop area is:<span id="rooftop"></span></h2>
+                    </div>
+                    <br>
+                    <div class="boxed green">
+                        <h2>Total energy generated in one year:<span id="energy"></span></h2>
+                    </div>
                 </div>
             </div>
         </div>

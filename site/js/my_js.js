@@ -5,12 +5,14 @@
 var area;
 var solarsystem;
 var saved;
+var energy;
 function save() {
     area = document.getElementById('name').value;
     if(area >= 100)
     {
         solarsystem = Math.floor(area/100);
         saved = solarsystem*120;
+        energy = saved*12;
     }
     else
     {
@@ -31,6 +33,11 @@ function submit() {
     showinput();
 }
 
+function display_in_calculator() {
+    document.getElementById('rooftop').innerHTML = area;
+    document.getElementById('energy').innerHTML = energy;
+}
+
 function check_empty() {
     if (document.getElementById('name').value == "") {
         alert("Fill All Fields !");
@@ -43,7 +50,6 @@ function popup() {
     document.getElementById('abc').style.display = "block";
     hide();
 }
-
 
 //Function to Hide Popup
 function div_hide(){
