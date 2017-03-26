@@ -18,6 +18,7 @@ function save() {
     {
         solarsystem = 0;
         saved = 0;
+        energy = 0;
     }
 }
 
