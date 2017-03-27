@@ -13,6 +13,8 @@ function save() {
         solarsystem = Math.floor(area/100);
         saved = solarsystem*120;
         energy = saved*12;
+        localStorage.setItem("myArea", area);
+        localStorage.setItem("myEnergy", energy);
     }
     else
     {
@@ -35,8 +37,8 @@ function submit() {
 }
 
 function display_in_calculator() {
-    document.getElementById('rooftop').innerHTML = area;
-    document.getElementById('energy').innerHTML = energy;
+    document.getElementById('rooftop').innerHTML = localStorage.getItem("myArea");
+    document.getElementById('energy').innerHTML = localStorage.getItem("myEnergy");
 }
 
 function check_empty() {

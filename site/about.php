@@ -46,7 +46,7 @@
                     <strong>CERTIFICATES AND PRODUCTS</strong>
                 </h2>
                 <hr>
-                <img class="img-responsive img-border img-left" src="img/image4.jpg" alt="">
+                <img class="img-responsive img-border img-left" src="img/4.jpg" alt="">
                 <hr class="visible-xs">
                 <ul type="1">
                     <li>Prashant Solar products ranges from 20W to 300W. The cell efficiency of the products is 18%.
@@ -77,7 +77,7 @@
                     <strong>Potential Owner Benefits and Government Incentives</strong>
                 </h2>
                 <hr>
-                <img class="img-responsive img-border img-left" src="img/image5.jpg" alt="">
+                <img class="img-responsive img-border img-left" src="img/2.jpg" alt="">
                 <hr class="visible-xs">
                 <ul type="1">
                     <hr class="visible-xs">
@@ -110,21 +110,21 @@
                 <hr>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <img class="img-responsive" src="img/team3.jpg" alt="">
                 <h3>Sudhansh Singh
                     <br>
                     <small>Operations Manager</small>
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <img class="img-responsive" src="img/team1.jpg" alt="">
                 <h3>Prashant Singh
                     <br>
                     <small>Chief Executive Officer</small>
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <img class="img-responsive" src="img/team2.jpg" alt="">
                 <h3>Virendra Singh
                     <br>
                     <small>Co Founder</small>
@@ -133,7 +133,7 @@
             <div class="clearfix"></div>
 
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <img class="img-responsive" src="img/team4.jpg" alt="">
                 <h3>Rajendra Singh
                     <br>
                     <small>Co Founder</small>
@@ -147,7 +147,7 @@
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <img class="img-responsive" src="img/team5.jpg" alt="">
                 <h3>Ankit Handa
                     <br>
                     <small>Commercial Manager</small>

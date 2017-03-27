@@ -73,6 +73,7 @@
                             $('#total_load').val(total_load);
 
                             document.getElementById('total_load').innerHTML = total_load;
+                            document.getElementById('load').innerHTML = total_load;
                         }
                     </script>
                     <form method="post" action="value.php" name="form1" id="form1">
@@ -252,6 +253,10 @@
                     <br>
                     <div class="boxed green">
                         <h2>Total energy generated in one year:<span id="energy"></span></h2>
+                    </div>
+                    <br>
+                    <div class="boxed yellow">
+                        <h2>Total Load<span id="load"></span></h2>
                     </div>
                 </div>
             </div>
