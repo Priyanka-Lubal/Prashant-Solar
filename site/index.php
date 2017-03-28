@@ -40,15 +40,13 @@
 <?php include 'includes/header.php'; ?>
 
 <div class="container">
-
+    <br>
+    <br>
     <div class="row">
         <div class="box">
             <div class="col-lg-12 text-center">
-                <h2 class="brand-before">
-                    <small>Welcome to</small>
-                </h2>
-                <h1 class="brand-name">Prashant Solar</h1>
-                <br>
+
+
                 <div id="carousel-example-generic" class="carousel slide">
                     <!-- Indicators -->
                     <ol class="carousel-indicators hidden-xs">
@@ -60,13 +58,13 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img class="img-responsive img-full" src="img/image1.jpg" alt="">
+                            <img class="img-responsive img-full" src="img/slide1.jpg" alt="">
                         </div>
                         <div class="item">
-                            <img class="img-responsive img-full" src="img/image2.jpg" alt="">
+                            <img class="img-responsive img-full" src="img/slide2.jpg" alt="">
                         </div>
                         <div class="item">
-                            <img class="img-responsive img-full" src="img/image3.jpg" alt="">
+                            <img class="img-responsive img-full" src="img/slide3.jpg" alt="">
                         </div>
                     </div>
 
@@ -78,10 +76,16 @@
                         <span class="icon-next"></span>
                     </a>
                 </div>
+                <h2 class="brand-before">
+                    <small>Welcome to</small>
+                </h2>
+                <h1 class="brand-name">Prashant Solar</h1>
             </div>
         </div>
     </div>
 
+    <br>
+    <br>
     <div class="row">
         <div class="box">
             <div class="col-lg-12">
@@ -90,7 +94,7 @@
                     <strong>About</strong>
                 </h2>
                 <hr>
-                <img class="img-responsive img-border img-left" src="img/background.jpg" alt="">
+                <img class="img-responsive img-border img-left" src="img/index_about.jpg" alt="">
                 <hr class="visible-xs">
                 <p>Prashant Solar produces “high-performance” PV solar modules on a commercial scale and at lowest cost
                     using optimized processes in its mass production of modules. </p>
@@ -116,7 +120,7 @@
         </div>
     </div>
 
-    <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button"
+    <a id="back-to-top" href="#" class="btn btn-default btn-lg back-to-top" role="button"
        title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span
                 class="glyphicon glyphicon-chevron-up"></span></a>
 
