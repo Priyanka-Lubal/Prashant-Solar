@@ -58,7 +58,7 @@
                 <h2>Calculate the Load
                     <br>
                 </h2>
-                <div class="col-md-8" style="float: left; width: 50%">
+                <div class="col-md-6">
 
                     <script>
                         function calc_load() {
@@ -234,7 +234,7 @@
                             </tr>
                             <tr>
                                 <td><b>Total Load</b></td>
-                                <td>
+                                <td></td>
                                 <td><input type="text" name="total_load" id="total_load" value="0" class="form-control"
                                            style="max-width:100px; max-height:30px;">
                                     <div class="error_holder"></div>
@@ -245,7 +245,8 @@
                     </form>
 
                 </div>
-                <div id="right" style="float: right; width: 50%">
+
+                <div class="col-md-6">
                     <p>
                     <div class="boxed red">
                         <h2>Rooftop area is:<span id="rooftop"></span></h2>
@@ -259,6 +260,7 @@
                         <h2>Total Load<span id="load"></span></h2>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
