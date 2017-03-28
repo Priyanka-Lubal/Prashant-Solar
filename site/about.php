@@ -110,21 +110,21 @@
                 <hr>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="img/team4.jpg" alt="">
+                <img class="img-responsive" src="img/team2.jpg" alt="">
                 <h3>Rajendra Singh
                     <br>
                     <small>Co Founder</small>
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="img/team2.jpg" alt="">
+                <img class="img-responsive" src="img/team1.jpg" alt="">
                 <h3>Virendra Singh
                     <br>
                     <small>Co Founder</small>
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="img/team1.jpg" alt="">
+                <img class="img-responsive" src="img/team4.jpg" alt="">
                 <h3>Prashant Singh
                     <br>
                     <small>Chief Executive Officer</small>
