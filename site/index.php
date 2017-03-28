@@ -40,8 +40,7 @@
 <?php include 'includes/header.php'; ?>
 
 <div class="container">
-    <br>
-    <br>
+
     <div class="row">
         <div class="box">
             <div class="col-lg-12 text-center">
@@ -84,8 +83,7 @@
         </div>
     </div>
 
-    <br>
-    <br>
+
     <div class="row">
         <div class="box">
             <div class="col-lg-12">
