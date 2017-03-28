@@ -110,17 +110,10 @@
                 <hr>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="img/team3.jpg" alt="">
-                <h3>Sudhansh Singh
+                <img class="img-responsive" src="img/team4.jpg" alt="">
+                <h3>Rajendra Singh
                     <br>
-                    <small>Operations Manager</small>
-                </h3>
-            </div>
-            <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="img/team1.jpg" alt="">
-                <h3>Prashant Singh
-                    <br>
-                    <small>Chief Executive Officer</small>
+                    <small>Co Founder</small>
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
@@ -130,20 +123,19 @@
                     <small>Co Founder</small>
                 </h3>
             </div>
-            <div class="clearfix"></div>
-
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="img/team4.jpg" alt="">
-                <h3>Rajendra Singh
+                <img class="img-responsive" src="img/team1.jpg" alt="">
+                <h3>Prashant Singh
                     <br>
-                    <small>Co Founder</small>
+                    <small>Chief Executive Officer</small>
                 </h3>
             </div>
+            <div class="clearfix"></div>
             <div class="col-sm-4 text-center">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <h3>Himanshu Singh
                     <br>
-                    <small>Chief Productions Officer</small>
+                    <small>Chief Production Officer</small>
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
@@ -151,6 +143,13 @@
                 <h3>Ankit Handa
                     <br>
                     <small>Commercial Manager</small>
+                </h3>
+            </div>
+            <div class="col-sm-4 text-center">
+                <img class="img-responsive" src="img/team3.jpg" alt="">
+                <h3>Sudhansh Singh
+                    <br>
+                    <small>Operations Manager</small>
                 </h3>
             </div>
             <div class="clearfix"></div>

@@ -83,3 +83,7 @@ $(document).ready(function () {
     $('#back-to-top').tooltip('show');
 
 });
+
+function green_quotient() {
+    document.getElementById('pqr').style.display = "block";
+}

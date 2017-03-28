@@ -241,11 +241,9 @@
                                 </td>
                             </tr>
                         </table>
-                        <p><input type="submit" class="btn btn-primary" value="Submit"/></p>
+                        <p><a href="#" onclick="green_quotient()">Submit</a></p>
                     </form>
-
                 </div>
-
                 <div class="col-md-6">
                     <p>
                     <div class="boxed red">
@@ -256,8 +254,15 @@
                         <h2>Total energy generated in one year:<span id="energy"></span></h2>
                     </div>
                     <br>
-                    <div class="boxed yellow">
-                        <h2>Total Load<span id="load"></span></h2>
+                    <div id="pqr">
+                        <h3>Green Quotient</h3>
+                        <div class="boxed yellow">
+                            <h2>Carbon foot print reduced over 25 years :<span id="load"></span></h2>
+                        </div>
+                        <br>
+                        <div class="boxed yellow">
+                            <h2>Equivalent number of trees saved in 25 years:<span id="load"></span></h2>
+                        </div>
                     </div>
                 </div>
 
@@ -267,7 +272,7 @@
 
 
     <a id="back-to-top" href="#" class="btn btn-default btn-lg back-to-top" role="button"
-       title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span
+       title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span>
                 class="glyphicon glyphicon-chevron-up"></span></a>
 
 </div>
