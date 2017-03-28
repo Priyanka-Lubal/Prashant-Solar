@@ -51,7 +51,7 @@
                 <hr>
             </div>
             <div class="col-lg-12 text-center">
-                <img class="img-responsive img-border img-full" src="img/1.jpg" alt="hello">
+                <img class="img-responsive img-border img-full" src="img/calculator.jpg" alt="hello">
                 <h2>Calculate the Load
                     <br>
                 </h2>
