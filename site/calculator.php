@@ -2,9 +2,6 @@
 <html lang="en">
 
 
-
-
-
 <head>
 
     <meta charset="utf-8">
@@ -241,7 +238,7 @@
                                 </td>
                             </tr>
                         </table>
-                        <p><a href="#" onclick="green_quotient()">Submit</a></p>
+                        <p><a href="#" onclick="green_quotient()" class="btn btn-primary" role="button">Submit</a></p>
                     </form>
                 </div>
                 <div class="col-md-6">
@@ -272,7 +269,7 @@
 
 
     <a id="back-to-top" href="#" class="btn btn-default btn-lg back-to-top" role="button"
-       title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span>
+       title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span
                 class="glyphicon glyphicon-chevron-up"></span></a>
 
 </div>
