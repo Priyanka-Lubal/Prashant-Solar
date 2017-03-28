@@ -51,7 +51,7 @@
                 <hr>
             </div>
             <div class="col-lg-12 text-center">
-                <img class="img-responsive img-border img-full" src="img/calculator.jpg" alt="hello">
+                <img class="img-responsive img-border img-full" src="img/1.jpg" alt="hello">
                 <h2>Calculate the Load
                     <br>
                 </h2>
@@ -68,9 +68,6 @@
                             }
 
                             $('#total_load').val(total_load);
-
-                            document.getElementById('total_load').innerHTML = total_load;
-                            document.getElementById('load').innerHTML = total_load;
                         }
                     </script>
                     <form method="post" action="value.php" name="form1" id="form1">
@@ -238,10 +235,10 @@
                                 </td>
                             </tr>
                         </table>
-                        <p><a href="#" onclick="green_quotient()" class="btn btn-primary" role="button">Submit</a></p>
+                        <p><a href="#" id="submit" onclick="green_quotient()" class="btn btn-primary" role="button">Submit</a></p>
                     </form>
                 </div>
-                <div class="col-md-6">
+                <div id="result" class="col-md-6">
                     <p>
                     <div class="boxed red">
                         <h2>Rooftop area is:<span id="rooftop"></span></h2>

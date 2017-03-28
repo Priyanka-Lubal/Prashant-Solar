@@ -87,3 +87,9 @@ $(document).ready(function () {
 function green_quotient() {
     document.getElementById('pqr').style.display = "block";
 }
+
+$("#submit").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#result").offset().top
+    }, 2000);
+});
