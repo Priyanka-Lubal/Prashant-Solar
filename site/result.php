@@ -63,30 +63,30 @@
 <!--                        <hr>-->
 <!--                    </div>-->
                     <br>
-                    <h3>Savings</h3>
+                    <h3 class="highlght">Savings</h3>
                     <p>
-                    <div class="boxed red">
+                    <div class="boxed">
                         <h3>Rooftop area is:<span id="rooftop"></span></h3>
                     </div>
                     <br>
-                    <div class="boxed red">
+                    <div class="boxed">
                         <h3>Solar Capacity is:<span id="capacity"></span></h3>
                     </div>
                     <br>
-                    <div class="boxed green">
+                    <div class="boxed">
                         <h3>Total energy generated in one year:<span id="energy"></span></h3>
                     </div>
                     <br>
-                    <div class="boxed green">
+                    <div class="boxed">
                         <h3>Average Yearly Savings:<span id="savings"></span></h3>
                     </div>
                     <br>
-                    <h3>Green Quotient</h3>
-                    <div class="boxed yellow">
+                    <h3 class="highlght">Green Quotient</strong></h3>
+                    <div class="boxed">
                         <h3>Carbon foot print reduced over 25 years :<span id="load"></span></h3>
                     </div>
                     <br>
-                    <div class="boxed yellow">
+                    <div class="boxed">
                         <h3>Equivalent number of trees saved in 25 years:<span id="load"></span></h3>
                     </div>
                     <br>
@@ -100,21 +100,21 @@
 <!--                        <hr>-->
 <!--                    </div>-->
                     <br>
-                    <h3>Investment</h3>
+                    <h3 class="highlght">Investment</strong></h3>
                     <p>
-                    <div class="boxed red">
+                    <div class="boxed">
                         <h3>Cost of Panel:<span id="panel"></span></h3>
                     </div>
                     <br>
-                    <div class="boxed red">
+                    <div class="boxed">
                         <h3>Cost Of Batteries:<span id="battery"></span></h3>
                     </div>
                     <br>
-                    <div class="boxed green">
+                    <div class="boxed">
                         <h3>Cost of Inverter:<span id="inverter"></span></h3>
                     </div>
                     <br>
-                    <div class="boxed green">
+                    <div class="boxed">
                         <h3>Cost of BOS:<span id="bos"></span></h3>
                     </div>
                     <br>
