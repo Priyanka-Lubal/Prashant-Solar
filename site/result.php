@@ -53,6 +53,7 @@
             </div>
             <div class="col-lg-12 text-center">
                 <img class="img-responsive img-border img-full" src="img/calculator.jpg" alt="hello">
+                <br>
 
                 <div id="result" class="col-md-6 boxed">
 <!--                    <div class="col-lg-12">-->

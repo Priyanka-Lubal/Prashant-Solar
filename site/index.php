@@ -108,6 +108,16 @@
                     <strong>Consumer Benefits</strong>
                 </h2>
                 <hr>
+                <ul type="1">
+                    <hr class="visible-xs">
+                    <li>In the maximum efficiency division, we study the performance of all our panels throughout the product value chain, from the silicon extraction process, the treatment of the solar cells and their subsequent transformation into the TM-Series® solar panels that we offer our customers.
+                    </li>
+                    <li>High performance, quality, respect for the environment and making clean energy profitable are our motivation to continue evolving in this industry.
+                    </li>
+                    <li>Satisfaction of saving the environment and energy that will make a large difference.
+                    </li>
+                    <li>Independence and Security.</li>
+                </ul>
                 <!-- <p>Use as many boxes as you like, and put anything you want in them! They are great for just about anything, the sky's the limit!</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p> -->
             </div>

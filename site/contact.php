@@ -61,10 +61,9 @@
                 </p>
                 <p>Address:
                     <strong>
-                        W-75, Additional M. I. D. C, Anand Nagar,
+                        W-75/76(A), Additional M. I. D. C, Anand Nagar,
                         Ambernath East,
                         <br>District Thane, Near
-                        Panchatara Hotel
                         <br>Mumbai - 421506, Maharashtra, India
                     </strong>
                 </p>

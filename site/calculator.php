@@ -55,7 +55,7 @@
                     <br>
                 </h2>
                 <div class="col-md-6">
-                    <form method="post" action="value.php" name="form1" id="form1">
+                    <form method="post" name="form1" id="form1">
                         <table class="table table-condensed" style="max-width:600px;">
                             <tr>
                                 <th>Load</th>
