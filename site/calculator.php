@@ -56,6 +56,7 @@
                 <h2 class="intro-text text-center">Prashant Solar
                     <strong>Calculator</strong>
                 </h2>
+
                 <center>Calcuate your solar generation and start saving now!!!</center>
                 <hr>
             </div>
