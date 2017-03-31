@@ -59,7 +59,8 @@
                     inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                 <a href="#" class="btn btn-default btn-lg">Read More</a>
                 <hr>
-            </div>s
+            </div>
+            s
             <div class="col-lg-12 text-center">
                 <img class="img-responsive img-border img-full" src="img/project2.jpg" alt="">
                 <h2>Post Title
@@ -97,9 +98,6 @@
         </div>
     </div>
 
-    <a id="back-to-top" href="#" class="btn btn-default btn-lg back-to-top" role="button"
-       title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span
-                class="glyphicon glyphicon-chevron-up"></span></a>
 
 </div>
 <!-- /.container -->
@@ -113,6 +111,10 @@
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 
+
+<a id="back-to-top" href="#" class="btn btn-default btn-lg back-to-top" role="button"
+   title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span
+            class="glyphicon glyphicon-chevron-up"></span></a>
 
 <!--popup-->
 <?php include 'includes/popup.php'; ?>

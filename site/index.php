@@ -29,10 +29,6 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 </head>
 
 <body>
@@ -118,9 +114,6 @@
         </div>
     </div>
 
-    <a id="back-to-top" href="#" class="btn btn-default btn-lg back-to-top" role="button"
-       title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span
-                class="glyphicon glyphicon-chevron-up"></span></a>
 
 </div>
 <!-- /.container -->
@@ -141,6 +134,11 @@
         interval: 5000 //changes the speed
     })
 </script>
+
+
+<a id="back-to-top" href="#" class="btn btn-default btn-lg back-to-top" role="button"
+   title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span
+            class="glyphicon glyphicon-chevron-up"></span></a>
 
 <!--popup-->
 <?php include 'includes/popup.php'; ?>

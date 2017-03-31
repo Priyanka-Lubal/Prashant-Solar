@@ -264,11 +264,6 @@
         </div>
     </div>
 
-
-    <a id="back-to-top" href="#" class="btn btn-default btn-lg back-to-top" role="button"
-       title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span
-                class="glyphicon glyphicon-chevron-up"></span></a>
-
 </div>
 
 
@@ -280,6 +275,11 @@
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
+
+
+<a id="back-to-top" href="#" class="btn btn-default btn-lg back-to-top" role="button"
+   title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span
+            class="glyphicon glyphicon-chevron-up"></span></a>
 
 
 <!--popup-->
