@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<link href="css/elements.css" rel="stylesheet">
+<script src="js/my_js.js"></script>
 
 <head>
 
@@ -23,8 +24,6 @@
           rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic"
           rel="stylesheet" type="text/css">
-    <link href="css/elements.css" rel="stylesheet">
-    <script src="js/my_js.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,20 +55,6 @@
                     <br>
                 </h2>
                 <div class="col-md-6">
-
-                    <script>
-                        function calc_load() {
-
-                            total_load = 0;
-                            for (i = 0; i <= 20; i++) {
-
-                                total_load = total_load + (Number($('#qty_' + i).val()) * Number($('#watt_' + i).val()));
-
-                            }
-
-                            $('#total_load').val(total_load);
-                        }
-                    </script>
                     <form method="post" action="value.php" name="form1" id="form1">
                         <table class="table table-condensed" style="max-width:600px;">
                             <tr>
@@ -235,7 +220,7 @@
                                 </td>
                             </tr>
                         </table>
-                        <p><a href="#" id="submit" onclick="green_quotient()" class="btn btn-primary" role="button">Submit</a></p>
+                        <p><a href="result.php" id="submit" class="btn btn-primary" role="button">Submit</a></p>
                     </form>
                 </div>
                 <div id="result" class="col-md-6">

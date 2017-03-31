@@ -6,6 +6,11 @@ var area;
 var solarsystem;
 var saved;
 var energy;
+var total_load;
+var cost_battery;
+var cost_inverter;
+var cost_bos;
+var cost_panel;
 function save() {
     area = document.getElementById('name').value;
     if(area >= 100)
@@ -15,6 +20,7 @@ function save() {
         energy = saved*12;
         localStorage.setItem("myArea", area);
         localStorage.setItem("myEnergy", energy);
+        localStorage.setItem("myCapacity", solarsystem);
     }
     else
     {
@@ -36,9 +42,33 @@ function submit() {
     showinput();
 }
 
+function calc_load() {
+    total_load = 0;
+    for (i = 0; i <= 20; i++) {
+
+        total_load = total_load + (Number($('#qty_' + i).val()) * Number($('#watt_' + i).val()));
+
+    }
+    cost_panel = 32 * total_load;
+    localStorage.setItem("myPanel", cost_panel);
+    cost_battery = 2 * (Math.floor(total_load/1000)) * 12500;
+    localStorage.setItem("myBattery", cost_battery);
+    cost_inverter = (Math.floor(total_load/1000)) * 15000;
+    localStorage.setItem("myInverter", cost_inverter);
+    cost_bos = (Math.floor(total_load/1000)) * 15000;
+    localStorage.setItem("myBos",cost_bos);
+
+    $('#total_load').val(total_load);
+}
+
 function display_in_calculator() {
     document.getElementById('rooftop').innerHTML = localStorage.getItem("myArea");
+    document.getElementById('capacity').innerHTML = localStorage.getItem("myCapacity");
     document.getElementById('energy').innerHTML = localStorage.getItem("myEnergy");
+    document.getElementById('panel').innerHTML = localStorage.getItem("myPanel");
+    document.getElementById('battery').innerHTML = localStorage.getItem("myBattery");
+    document.getElementById('inverter').innerHTML = localStorage.getItem("myInverter");
+    document.getElementById('bos').innerHTML = localStorage.getItem("myBos");
 }
 
 function check_empty() {
@@ -92,4 +122,10 @@ $("#submit").click(function() {
     $('html, body').animate({
         scrollTop: $("#result").offset().top
     }, 2000);
+});
+
+$("#name").keyup(function(event){
+    if(event.keyCode == 13){
+        $("#submit1").click();
+    }
 });
