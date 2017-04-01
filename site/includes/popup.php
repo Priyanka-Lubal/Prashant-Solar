@@ -19,7 +19,7 @@
             <h2>Calculator</h2>
             <hr>
             <strong>Enter Rooftop area</strong></><br><br>
-            <input id="name" name="name" placeholder="Enter in squaremeter" type="number" onchange="save()"><br><br>
+            <input id="name" name="name" placeholder="Enter in square-feet" type="number" onchange="save()"><br><br>
             <a href="#" id="submit1" onclick="check_empty()">Submit</a>
         </form>
     </div>

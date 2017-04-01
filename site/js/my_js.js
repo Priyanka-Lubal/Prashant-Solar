@@ -49,14 +49,31 @@ function calc_load() {
         total_load = total_load + (Number($('#qty_' + i).val()) * Number($('#watt_' + i).val()));
 
     }
-    cost_panel = 32 * total_load;
+    if(total_load>1000) {
+        cost_panel = 32 * total_load;
+
+        cost_battery = 2 * (Math.floor(total_load / 1000)) * 12500;
+
+        cost_inverter = (Math.floor(total_load / 1000)) * 15000;
+
+        cost_bos = (Math.floor(total_load / 1000)) * 15000;
+
+    }
+    else
+    {
+        cost_panel = 32 * total_load;
+
+        cost_battery = 0;
+
+        cost_inverter = 0;
+
+        cost_bos = 0;
+
+    }
     localStorage.setItem("myPanel", cost_panel);
-    cost_battery = 2 * (Math.floor(total_load/1000)) * 12500;
     localStorage.setItem("myBattery", cost_battery);
-    cost_inverter = (Math.floor(total_load/1000)) * 15000;
     localStorage.setItem("myInverter", cost_inverter);
-    cost_bos = (Math.floor(total_load/1000)) * 15000;
-    localStorage.setItem("myBos",cost_bos);
+    localStorage.setItem("myBos", cost_bos);
 
     $('#total_load').val(total_load);
 }

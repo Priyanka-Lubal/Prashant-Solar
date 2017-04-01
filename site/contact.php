@@ -83,7 +83,8 @@
                     <strong>form</strong>
                 </h2>
                 <hr>
-                <p>Please leave us your contact and email id.!!</p>
+                <p>Light it up <strong>GREEN</strong> with <strong>Prashant Solar</strong> because <strong>GREEN IS THE NEW GOLD</strong>!!</p>
+                <p>Please leave us your contact number and email id.</p>
                 <form role="form" method="post" action="form-handler-nodb.php">
                     <div class="row">
                         <div class="form-group col-lg-4">
