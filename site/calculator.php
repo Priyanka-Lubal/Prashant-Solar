@@ -44,7 +44,7 @@
 
 </head>
 
-<body onload="display_in_calculator()">
+<body>
 
 <?php include 'includes/header.php'; ?>
 

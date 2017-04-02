@@ -84,11 +84,11 @@
                     <br>
                     <h3 class="highlght">Green Quotient</strong></h3>
                     <div class="boxed">
-                        <h3>Carbon foot print reduced over 25 years :<span id="load"></span></h3>
+                        <h3>Carbon foot print reduced over 25 years :<span id="carbon"></span></h3>
                     </div>
                     <br>
                     <div class="boxed">
-                        <h3>Equivalent number of trees saved in 25 years:<span id="load"></span></h3>
+                        <h3>Equivalent number of trees saved in 25 years:<span id="trees"></span></h3>
                     </div>
                     <br>
                 </div>
@@ -103,6 +103,10 @@
                     <br>
                     <h3 class="highlght">Investment</strong></h3>
                     <p>
+                    <div class="boxed">
+                        <h3>Total Load:<span id="load"></span></h3>
+                    </div>
+                    <br>
                     <div class="boxed">
                         <h3>Cost of Panel:<span id="panel"></span></h3>
                     </div>

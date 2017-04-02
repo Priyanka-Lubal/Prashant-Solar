@@ -2,15 +2,15 @@
  * Created by acer on 3/8/2017.
  */
 // Validating Empty Field
-var area;
-var solarsystem;
-var saved;
-var energy;
-var total_load;
-var cost_battery;
-var cost_inverter;
-var cost_bos;
-var cost_panel;
+var area = 0;
+var solarsystem = 0;
+var saved = 0;
+var energy = 0;
+var total_load = 0;
+var cost_battery = 0;
+var cost_inverter = 0;
+var cost_bos = 0;
+var cost_panel = 0;
 function save() {
     area = document.getElementById('name').value;
     if(area >= 100)
@@ -70,6 +70,7 @@ function calc_load() {
         cost_bos = 0;
 
     }
+    localStorage.setItem("myLoad", total_load);
     localStorage.setItem("myPanel", cost_panel);
     localStorage.setItem("myBattery", cost_battery);
     localStorage.setItem("myInverter", cost_inverter);
@@ -79,9 +80,11 @@ function calc_load() {
 }
 
 function display_in_calculator() {
+    alert(localStorage.getItem("myLoad"));
     document.getElementById('rooftop').innerHTML = localStorage.getItem("myArea");
     document.getElementById('capacity').innerHTML = localStorage.getItem("myCapacity");
     document.getElementById('energy').innerHTML = localStorage.getItem("myEnergy");
+    document.getElementById('load').innerHTML = localStorage.getItem("myLoad");
     document.getElementById('panel').innerHTML = localStorage.getItem("myPanel");
     document.getElementById('battery').innerHTML = localStorage.getItem("myBattery");
     document.getElementById('inverter').innerHTML = localStorage.getItem("myInverter");
