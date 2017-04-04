@@ -41,7 +41,7 @@
                 </div>
                 <div>
                     <i class="fa fa-envelope"></i>
-                    <p><a href="#"> office@company.com</a></p>
+                    <p><a href="#"> info@ppillp.com</a></p>
                 </div>
             </div>
             <div class="footer-right col-md-4 col-sm-6">
