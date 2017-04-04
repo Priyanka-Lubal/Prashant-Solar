@@ -21,6 +21,7 @@ function save() {
         localStorage.setItem("myArea", area);
         localStorage.setItem("myEnergy", energy);
         localStorage.setItem("myCapacity", solarsystem);
+        localStorage.setItem("myUnits", saved);
     }
     else
     {
@@ -83,6 +84,7 @@ function display_in_calculator() {
     document.getElementById('rooftop').innerHTML = localStorage.getItem("myArea");
     document.getElementById('capacity').innerHTML = localStorage.getItem("myCapacity");
     document.getElementById('energy').innerHTML = localStorage.getItem("myEnergy");
+    document.getElementById('units').innerHTML = localStorage.getItem("myUnits");
     document.getElementById('load').innerHTML = localStorage.getItem("myLoad");
     document.getElementById('panel').innerHTML = localStorage.getItem("myPanel");
     document.getElementById('battery').innerHTML = localStorage.getItem("myBattery");

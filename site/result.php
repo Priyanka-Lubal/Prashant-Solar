@@ -82,6 +82,10 @@
                     </div>
                     <br>
                     <div class="boxed">
+                        <h3>Units saved per month:<span id="units"></span></h3>
+                    </div>
+                    <br>
+                    <div class="boxed">
                         <h3>Average Yearly Savings:<span id="savings"></span></h3>
                     </div>
                     <br>

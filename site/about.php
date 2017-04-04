@@ -107,6 +107,28 @@
         <div class="box">
             <div class="col-lg-12">
                 <hr>
+                <h2 class="intro-text text-center">
+                    <strong>Prashant Plastic Industries LLP</strong>
+                </h2>
+                <hr>
+                <img class="img-responsive img-border img-left" src="img/ppillp.jpg" alt="">
+                <hr class="visible-xs">
+                    <p>We "Prashant Plastic Industries LLP" incorporated in the year 2010 organization has excelled being a manufacturer and retailer of Industrial Process Equipment. Our products Industrial Process Equipment sturdy construction, corrosion resistance and longer service life. Moreover, these products are renowned for their superior performance and require less maintenance. Our expertise allow us to offer these equipment as per the requirement of different industries. Additionally, we render after sales service for these equipment so as to attain maximum client satisfaction.
+                    Our trouble free performing equipment are manufactured by using finest raw material that is sourced by our qualified and knowledgeable person from credible vendors of the market. We also test the physical and mechanical properties of finished products.</p>
+                <p>We have emerged as one of the renowned name in the industry offering effectual after sales services for our range of Industrial Process Equipment. We provide various services for to our clients for our range of Industrial Process Equipment. Various facilities in terms of the product are given such as:</p>
+                 <ul type="0">
+                     <li> Operational Training.</li>
+                     <li>Installation Training.</li>
+                     <li>On-site Support.</li>
+                 </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="box">
+            <div class="col-lg-12">
+                <hr>
                 <h2 class="intro-text text-center">Our
                     <strong>Team</strong>
                 </h2>
