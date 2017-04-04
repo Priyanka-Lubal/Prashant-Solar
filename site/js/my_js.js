@@ -80,7 +80,6 @@ function calc_load() {
 }
 
 function display_in_calculator() {
-    alert(localStorage.getItem("myLoad"));
     document.getElementById('rooftop').innerHTML = localStorage.getItem("myArea");
     document.getElementById('capacity').innerHTML = localStorage.getItem("myCapacity");
     document.getElementById('energy').innerHTML = localStorage.getItem("myEnergy");
@@ -144,8 +143,16 @@ $("#submit").click(function() {
     }, 2000);
 });
 
-$("#name").keyup(function(event){
-    if(event.keyCode == 13){
-        $("#submit1").click();
-    }
-});
+document.getElementById("name")
+    .addEventListener("keyup", function(event) {
+        event.preventDefault();
+        if (event.keyCode == 13) {
+            document.getElementById("result").click();
+        }
+    });
+
+// $("#name").keyup(function(event){
+//     if(event.keyCode == 13){
+//         $("#submit1").click();
+//     }
+// });
