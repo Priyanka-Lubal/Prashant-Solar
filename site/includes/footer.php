@@ -20,8 +20,13 @@
         <div class="row">
             <div class="footer-left col-md-4 col-sm-6">
                 <p class="about">
-                    <span> About the company</span> We "Prashant Plastic Industries LLP" incorporated in the year 2010 organization has excelled being a manufacturer and retailer of Industrial Process Equipment. Our products Industrial Process Equipment sturdy construction, corrosion resistance and longer service life. Moreover, these products are renowned for their superior performance and require less maintenance. Our expertise allow us to offer these equipment as per the requirement of different industries. Additionally, we render after sales service for these equipment so as to attain maximum client satisfaction.
-                </p>
+                    <span> About the company</span> We "Prashant Plastic Industries LLP" incorporated in the year 2010
+                    organization has excelled being a manufacturer and retailer of Industrial Process Equipment. Our
+                    products Industrial Process Equipment sturdy construction, corrosion resistance and longer service
+                    life. Moreover, these products are renowned for their superior performance and require less
+                    maintenance. Our expertise allow us to offer these equipment as per the requirement of different
+                    industries. Additionally, we render after sales service for these equipment so as to attain maximum
+                    client satisfaction.</p>
                 <div class="icons">
                     <a href="#"><i class="fa fa-facebook"></i></a>
                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -37,11 +42,11 @@
                 </div>
                 <div>
                     <i class="fa fa-phone"></i>
-                    <p> (+00) 0000 000 000</p>
+                    <p><a href="tel:+91 98732 55548​⁠​">(+91) 98732 55548</a></p>
                 </div>
                 <div>
                     <i class="fa fa-envelope"></i>
-                    <p><a href="#"> info@ppillp.com</a></p>
+                    <p><a href="mailto:info@ppillp.com">info@ppillp.com</a></p>
                 </div>
             </div>
             <div class="footer-right col-md-4 col-sm-6">
@@ -53,7 +58,7 @@
                     <a href="#" onclick="popup()"> Calculator</a> |
                     <a href="contact.php"> Contact Us</a> |
                 </p>
-                <p class="name"> PrashantSolar &copy; 2017</p>
+                <p class="name">Copyright &copy; 2017 Prashant Solar. All Rights Reserved</p>
             </div>
         </div>
     </div>
