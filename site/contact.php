@@ -64,10 +64,11 @@
                 </p>
                 <p>Address:
                     <strong>
-                        W-75/76(A), Additional M. I. D. C, Anand Nagar,
-                        Ambernath East,
-                        <br>District Thane, Near
-                        <br>Mumbai - 421506, Maharashtra, India
+                        W - 75 / 76 ( A ),
+                        <br>Additional M. I. D. C,
+                        <br>Anand Nagar, Ambernath East,
+                        <br>District Thane, 421506.
+                        <br>Maharashtra, India.
                     </strong>
                 </p>
             </div>

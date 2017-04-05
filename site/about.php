@@ -135,21 +135,21 @@
                 <hr>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="img/team2.jpg" alt="">
+                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <h3>Rajendra Singh
                     <br>
                     <small>Co Founder</small>
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="img/team1.jpg" alt="">
+                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <h3>Virendra Singh
                     <br>
                     <small>Co Founder</small>
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="img/team4.jpg" alt="">
+                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <h3>Prashant Singh
                     <br>
                     <small>Chief Executive Officer</small>
@@ -164,14 +164,14 @@
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="img/team5.jpg" alt="">
+                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <h3>Ankit Handa
                     <br>
                     <small>Commercial Manager</small>
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="img/team3.jpg" alt="">
+                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <h3>Sudhansh Singh
                     <br>
                     <small>Operations Manager</small>
