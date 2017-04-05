@@ -95,18 +95,18 @@
                         <span class="icon-next"></span>
                     </a>
                 </div>
-                <h2>Post Title
+                <h2> M/s Industrial Fiber, Faizabad Uttar Pradesh
                     <br>
                     <small>October 13, 2013</small>
                 </h2>
-                <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis
-                    fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus
-                    error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                    inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                <a href="#" class="btn btn-default btn-lg">Read More</a>
+                <p>A 20KW solar module plant for generating electricity for their manufacturing plant.
+                    80 panels of 250 watt has been used with cell capacity of 18.4%.
+                    It has been a year since the project installed and is running successfully.
+                    They have saved more than RE. 50,000/- by installing the projext.
+                    Not only in terms of money they ahve contributed to environmenr
+                    By saving lot of trees and reducing carbon emmissions</p>
                 <hr>
             </div>
-
         </div>
     </div>
 
