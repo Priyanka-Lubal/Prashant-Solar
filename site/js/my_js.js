@@ -11,6 +11,8 @@ var cost_battery = 0;
 var cost_inverter = 0;
 var cost_bos = 0;
 var cost_panel = 0;
+var project_cost;
+var yearly_saved;
 function save() {
     area = document.getElementById('name').value;
     if(area >= 100)
@@ -58,16 +60,23 @@ function calc_load() {
 
         cost_bos = 15 * total_load;
 
+        project_cost = cost_bos + cost_inverter + cost_battery + cost_panel;
+
+        yearly_saved = Math.floor((project_cost * 13)/100);
+
     localStorage.setItem("myLoad", total_load);
     localStorage.setItem("myPanel", cost_panel);
     localStorage.setItem("myBattery", cost_battery);
     localStorage.setItem("myInverter", cost_inverter);
     localStorage.setItem("myBos", cost_bos);
+    localStorage.setItem("mySavings", yearly_saved);
+    localStorage.setItem("myCost", project_cost);
 
     $('#total_load').val(total_load);
 }
 
 function display_in_calculator() {
+    alert(localStorage.getItem("myCost"));
     document.getElementById('rooftop').innerHTML = localStorage.getItem("myArea");
     document.getElementById('capacity').innerHTML = localStorage.getItem("myCapacity");
     document.getElementById('energy').innerHTML = localStorage.getItem("myEnergy");
@@ -77,6 +86,7 @@ function display_in_calculator() {
     document.getElementById('battery').innerHTML = localStorage.getItem("myBattery");
     document.getElementById('inverter').innerHTML = localStorage.getItem("myInverter");
     document.getElementById('bos').innerHTML = localStorage.getItem("myBos");
+    document.getElementById('savings').innerHTML = localStorage.getItem("mySavings");
 }
 
 function check_empty() {

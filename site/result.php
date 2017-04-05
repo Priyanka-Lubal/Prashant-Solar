@@ -67,7 +67,8 @@
 <!--                        <hr>-->
 <!--                    </div>-->
                     <br>
-                    <h3 class="highlght">Savings</h3>
+                    <h3><u>Savings</u></h3>
+                    <br>
                     <p>
                     <div class="boxed">
                         <h3>Rooftop area is:<span id="rooftop"></span></h3>
@@ -89,15 +90,6 @@
                         <h3>Average Yearly Savings:<span id="savings"></span></h3>
                     </div>
                     <br>
-                    <h3 class="highlght">Green Quotient</strong></h3>
-                    <div class="boxed">
-                        <h3>Carbon foot print reduced over 25 years :<span id="carbon"></span></h3>
-                    </div>
-                    <br>
-                    <div class="boxed">
-                        <h3>Equivalent number of trees saved in 25 years:<span id="trees"></span></h3>
-                    </div>
-                    <br>
                 </div>
                 <div id="result" class="col-md-6 boxed">
 <!--                    <div class="col-lg-12">-->
@@ -108,7 +100,8 @@
 <!--                        <hr>-->
 <!--                    </div>-->
                     <br>
-                    <h3 class="highlght">Investment</strong></h3>
+                    <h3><u>Investment</u></h3>
+                    <br>
                     <p>
                     <div class="boxed">
                         <h3>Total Load:<span id="load"></span></h3>
