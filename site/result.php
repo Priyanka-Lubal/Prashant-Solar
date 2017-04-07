@@ -37,6 +37,16 @@
 
     <link href="css/footer.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<style>
+        td {
+            font-size: larger;
+        }
+
+        th {
+            font-size: large;
+        }
+    </style>
+	
 </head>
 
 <body onload="display_in_calculator()">
@@ -57,73 +67,63 @@
             <div class="col-lg-12 text-center">
                 <img class="img-responsive img-border img-full" src="img/calculator.jpg" alt="hello">
                 <br>
-
-                <div id="result" class="col-md-6 boxed">
-<!--                    <div class="col-lg-12">-->
-<!--                        <hr>-->
-<!--                        <h2 class="intro-text text-center">-->
-<!--                            <strong>Savings</strong>-->
-<!--                        </h2>-->
-<!--                        <hr>-->
-<!--                    </div>-->
-                    <br>
-                    <h3><u>Savings</u></h3>
-                    <br>
-                    <p>
-                    <div class="boxed">
-                        <h3>Rooftop area is:<span id="rooftop"></span></h3>
-                    </div>
-                    <br>
-                    <div class="boxed">
-                        <h3>Solar Capacity is:<span id="capacity"></span></h3>
-                    </div>
-                    <br>
-                    <div class="boxed">
-                        <h3>Total energy generated in one year:<span id="energy"></span></h3>
-                    </div>
-                    <br>
-                    <div class="boxed">
-                        <h3>Units saved per month:<span id="units"></span></h3>
-                    </div>
-                    <br>
-                    <div class="boxed">
-                        <h3>Average Yearly Savings:<span id="savings"></span></h3>
-                    </div>
-                    <br>
-                </div>
-                <div id="result" class="col-md-6 boxed">
-<!--                    <div class="col-lg-12">-->
-<!--                        <hr>-->
-<!--                        <h2 class="intro-text text-center">-->
-<!--                            <strong>Investments</strong>-->
-<!--                        </h2>-->
-<!--                        <hr>-->
-<!--                    </div>-->
-                    <br>
-                    <h3><u>Investment</u></h3>
-                    <br>
-                    <p>
-                    <div class="boxed">
-                        <h3>Total Load:<span id="load"></span></h3>
-                    </div>
-                    <br>
-                    <div class="boxed">
-                        <h3>Cost of Panel:<span id="panel"></span></h3>
-                    </div>
-                    <br>
-                    <div class="boxed">
-                        <h3>Cost Of Batteries:<span id="battery"></span></h3>
-                    </div>
-                    <br>
-                    <div class="boxed">
-                        <h3>Cost of Inverter:<span id="inverter"></span></h3>
-                    </div>
-                    <br>
-                    <div class="boxed">
-                        <h3>Cost of BOS:<span id="bos"></span></h3>
-                    </div>
-                    <br>
-                </div>
+			<div class="table-responsive">
+			<table class="table table-hover">
+				<hr>
+				<h2 class="intro-text text-center">
+                    <strong>Your Savings</strong>
+                </h2>
+				<hr>
+                    <tr>
+						<td>Rooftop area is</td>
+						<td><span id="rooftop"></span></td>
+					</tr>
+                    <tr>
+						<td>Solar Capacity is</td>
+						<td><span id="capacity"></span></td>
+					</tr>
+					<tr>
+						<td>Total energy generated in one year</td>
+						<td><span id="energy"></span></td>
+					</tr>
+                    <tr>
+						<td>Units saved per month</td>
+						<td><span id="units"></span></td>
+					</tr>
+                    <tr>
+						<td>Average Yearly Savings</td>
+						<td><span id="savings"></span></td>
+					</tr>
+			</table>
+			</div>
+			<div class="table-responsive">
+			<table class="table table-hover">
+				<hr>
+				<h2 class="intro-text text-center">
+                    <strong>Your Investment</strong>
+                </h2>
+				<hr>
+                    <tr>
+						<td>Total Load</td>
+						<td><span id="load"></span></td>
+					</tr>
+                    <tr>
+						<td>Cost of Panel</td>
+						<td><span id="panel"></span></td>
+					</tr>
+					<tr>
+						<td>Cost Of Batteries</td>
+						<td><span id="battery"></span></td>
+					</tr>
+                    <tr>
+						<td>Cost of Inverter</td>
+						<td><span id="inverter"></span></td>
+					</tr>
+                    <tr>
+						<td>Cost of BOS</td>
+						<td><span id="bos"></span></td>
+					</tr>
+			</table>
             </div>
         </div>
     </div>

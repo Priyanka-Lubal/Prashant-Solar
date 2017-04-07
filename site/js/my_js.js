@@ -6,13 +6,7 @@ var area = 0;
 var solarsystem = 0;
 var saved = 0;
 var energy = 0;
-var total_load = 0;
-var cost_battery = 0;
-var cost_inverter = 0;
-var cost_bos = 0;
-var cost_panel = 0;
-var project_cost;
-var yearly_saved;
+
 function save() {
     area = document.getElementById('name').value;
     if(area >= 100)
@@ -46,12 +40,20 @@ function submit() {
 }
 
 function calc_load() {
-    total_load = 0;
+	total_load = 0;
+	var cost_battery = 0;
+	var cost_inverter = 0;
+	var cost_bos = 0;
+	var cost_panel = 0;
+	var project_cost;
+	var yearly_saved;
     for (i = 0; i <= 20; i++) {
 
         total_load = total_load + (Number($('#qty_' + i).val()) * Number($('#watt_' + i).val()));
 
     }
+	if (total_load>0)
+	{
         cost_panel = 32 * total_load;
 
         cost_battery = 25 * total_load;
@@ -63,6 +65,21 @@ function calc_load() {
         project_cost = cost_bos + cost_inverter + cost_battery + cost_panel;
 
         yearly_saved = Math.floor((project_cost * 13)/100);
+	}
+	else if(total_load=0)
+	{	
+		cost_panel = 0;
+
+        cost_battery = 0;
+
+        cost_inverter = 0;
+
+        cost_bos = 0;
+
+        project_cost = 0;
+
+        yearly_saved = 0;
+	}
 
     localStorage.setItem("myLoad", total_load);
     localStorage.setItem("myPanel", cost_panel);
@@ -76,7 +93,6 @@ function calc_load() {
 }
 
 function display_in_calculator() {
-    alert(localStorage.getItem("myCost"));
     document.getElementById('rooftop').innerHTML = localStorage.getItem("myArea");
     document.getElementById('capacity').innerHTML = localStorage.getItem("myCapacity");
     document.getElementById('energy').innerHTML = localStorage.getItem("myEnergy");

@@ -125,18 +125,21 @@ button {
     background-color: #f8ff2e;
 }
 
+.field { 
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+}
+}
+
 .boxed {
-    border: 1px solid rgba(0, 6, 0, 0.87);
+    border: 1px solid;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-}
-.red{
-    background: #3da4ff;
-}
-.green {
-    background: #a1ff3f;
-}
-.yellow {
-    background: #f8ff2e;
 }
