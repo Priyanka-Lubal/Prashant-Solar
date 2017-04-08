@@ -9,7 +9,8 @@
 <a href="index.php"> <img class="img-responsive img-left brand" src="img/SOLER_LOGO.png"
                           style="height: 150px; padding: 5px;"> </a>
 <div class="brand">Prashant Solar</div>
-<div class="brand" style="font-size: 4em">"Green Is The New Gold"</div>
+<div class="address-bar">"Green Is The New Gold"</div>
+
 
 
 <!-- Navigation -->
@@ -25,7 +26,10 @@
                 <span class="icon-bar"></span>
             </button>
             <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+            <a class="navbar-brand" href="index.php"><img src="img/SOLER_LOGO.png"
+                                                          style="height: 40px; padding-right: 0%"></a>
             <a class="navbar-brand" href="index.php">Prashant Solar</a>
+
             <!--            <img class="img-responsive img-left navbar-brand" src="img/SOLER_LOGO.png" style="height: 100px; margin: 1px">-->
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->

@@ -20,7 +20,7 @@
         <div class="row">
             <div class="footer-left col-md-4 col-sm-6">
                 <p class="about">
-                    <span> About the company</span>The brain child of Mr. Virendra Singh and Mr. Rajendra Singh.
+                    <span>About the company</span>The brain child of Mr. Virendra Singh and Mr. Rajendra Singh.
                     Being in the industry for almost 35 years, they wanted to change with the industrial evolution.
                     Always, being environment and soroundings on their mind, they wanted to always do something for
                     renewable energy.
