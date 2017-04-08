@@ -43,12 +43,12 @@
                     <p><span>Additional M. I. D. C, District Thane</span> Thane, Maharashtra, India</p>
                 </div>
                 <div>
-                    <i class="fa fa-phone"></i>
+                    <a href="tel:+91 79777 47687​⁠​"><i class="fa fa-phone"></i></a>
                     <p><a href="tel:+91 79777 47687​⁠​"> (+91) 79777 47687</a></p>
                 </div>
                 <div>
-                    <i class="fa fa-envelope"></i>
-                    <p><a href="#"> info@ppillp.com</a></p>
+                    <a href="mailto:info@ppillp.com"><i class="fa fa-envelope"></i></a>
+                    <p><a href="mailto:info@ppillp.com"> info@ppillp.com</a></p>
                 </div>
             </div>
             <div class="footer-right col-md-4 col-sm-6">

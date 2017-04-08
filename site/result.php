@@ -37,7 +37,7 @@
 
     <link href="css/footer.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	<style>
+    <style>
         td {
             font-size: larger;
         }
@@ -46,7 +46,7 @@
             font-size: large;
         }
     </style>
-	
+
 </head>
 
 <body onload="display_in_calculator()">
@@ -67,69 +67,81 @@
             <div class="col-lg-12 text-center">
                 <img class="img-responsive img-border img-full" src="img/calculator.jpg" alt="hello">
                 <br>
-			<div class="table-responsive">
-			<table class="table table-hover">
-				<hr>
-				<h2 class="intro-text text-center">
-                    <strong>Your Savings</strong>
-                </h2>
-				<hr>
-                    <tr>
-						<td>Rooftop area is</td>
-						<td><span id="rooftop"></span></td>
-					</tr>
-                    <tr>
-						<td>Solar Capacity is</td>
-						<td><span id="capacity"></span></td>
-					</tr>
-					<tr>
-						<td>Total energy generated in one year</td>
-						<td><span id="energy"></span></td>
-					</tr>
-                    <tr>
-						<td>Units saved per month</td>
-						<td><span id="units"></span></td>
-					</tr>
-                    <tr>
-						<td>Average Yearly Savings</td>
-						<td><span id="savings"></span></td>
-					</tr>
-			</table>
-			</div>
-			<div class="table-responsive">
-			<table class="table table-hover">
-				<hr>
-				<h2 class="intro-text text-center">
-                    <strong>Your Investment</strong>
-                </h2>
-				<hr>
-                    <tr>
-						<td>Total Load</td>
-						<td><span id="load"></span></td>
-					</tr>
-                    <tr>
-						<td>Cost of Panel</td>
-						<td><span id="panel"></span></td>
-					</tr>
-					<tr>
-						<td>Cost Of Batteries</td>
-						<td><span id="battery"></span></td>
-					</tr>
-                    <tr>
-						<td>Cost of Inverter</td>
-						<td><span id="inverter"></span></td>
-					</tr>
-                    <tr>
-						<td>Cost of BOS</td>
-						<td><span id="bos"></span></td>
-					</tr>
-			</table>
+                <div class="col-lg-6 text-center">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>Your Savings</strong>
+                    </h2>
+                    <hr>
+                    <div class="col-lg-12 text-left">
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+
+                                <tr>
+                                    <td>Rooftop area</td>
+                                    <td><span id="rooftop"></span> Sq. ft</td>
+                                </tr>
+                                <tr>
+                                    <td>Solar Capacity</td>
+                                    <td><span id="capacity"></span> * kWp</td>
+                                </tr>
+                                <tr>
+                                    <td>Total energy generated in one year</td>
+                                    <td><span id="energy"></span> Units</td>
+                                </tr>
+                                <tr>
+                                    <td>Units saved per month</td>
+                                    <td><span id="units"></span> Units</td>
+                                </tr>
+                                <tr>
+                                    <td>Average Yearly Savings</td>
+                                    <td>&#8377; <span id="savings"></span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 text-center">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>Your Investment</strong>
+                    </h2>
+                    <hr>
+                    <div class="col-lg-12 text-left">
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+
+                                <tr>
+                                    <td>Total Load</td>
+                                    <td><span id="load"></span> W</td>
+                                </tr>
+                                <tr>
+                                    <td>Cost of Panel</td>
+                                    <td>&#8377; <span id="panel"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Cost Of Batteries</td>
+                                    <td>&#8377; <span id="battery"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Cost of Inverter</td>
+                                    <td>&#8377; <span id="inverter"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Cost of BOS</td>
+                                    <td>&#8377; <span id="bos"></span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <a id="back-to-top" href="#" class="btn btn-default btn-lg back-to-top" role="button"
+        <a id="back-to-top" href="#" class="btn btn-default btn-lg back-to-top" role="button"
            title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span
-                class="glyphicon glyphicon-chevron-up"></span></a>
+                    class="glyphicon glyphicon-chevron-up"></span></a>
+    </div>
 </div>
 <?php include 'includes/footer.php'; ?>
 
