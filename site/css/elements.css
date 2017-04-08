@@ -125,24 +125,6 @@ button {
     background-color: #f8ff2e;
 }
 
-.field {
-    border-bottom-style: groove;
-    border-bottom-width: 2px;
-    border-left-style: groove;
-    border-left-width: 2px;
-    border-right-style: groove;
-    border-right-width: 2px;
-    border-top-style: groove;
-    border-top-width: 2px;
-    display: block;
-    margin-left: 2px;
-    margin-right: 2px;
-    padding-bottom: 0.625em;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
-    padding-top: 0.35em;
-}
-
 .boxed {
     border: 1px solid;
     border-radius: 5px;
