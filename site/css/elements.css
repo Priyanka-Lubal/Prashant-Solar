@@ -4,92 +4,92 @@
 CSS settings for HTML div Exact Center
 ------------------------------------------------*/
 #abc {
-    width: 100%;
-    height: 100%;
-    opacity: .95;
-    top: 0;
-    left: 0;
-    display: none;
-    position: fixed;
     background-color: #343434;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: .95;
     overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
 
 }
 
-
 #xyz {
-    width: 100%;
-    height: 100%;
-    opacity: .95;
-    top: 0;
-    left: 0;
-    display: none;
-    position: fixed;
     background-color: #313131;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: .95;
     overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 img#close {
+    cursor: pointer
     position: absolute;
     right: -14px;
     top: -14px;
-    cursor: pointer
 }
 
 div#popupContact {
-    position: absolute;
-    left: 50%;
-    top: 17%;
-    margin-left: -202px;
+    background-image: url('../img/popup.jpg');
+    background-size: cover;
     font-family: 'Raleway', sans-serif;
-	background-image: url('../img/popup.jpg');
+    left: 50%;
+    margin-left: -202px;
+    position: absolute;
+    top: 17%;
 }
 
 #form1 {
+    border-radius: 10px;
+    font-family: raleway;
     max-width: 500px;
     min-width: 250px;
     padding: 10px 50px;
-    border-radius: 10px;
-    font-family: raleway;
 }
 
 #name {
-    background-repeat: no-repeat;
     background-position: 5px 7px
+    background-repeat: no-repeat;
 }
 
 #email {
-    background-repeat: no-repeat;
     background-position: 5px 7px
+    background-repeat: no-repeat;
 }
 
 textarea {
-    background-repeat: no-repeat;
     background-position: 5px 7px;
-    width: 82%;
-    height: 95px;
-    padding: 10px;
-    resize: none;
-    margin-top: 30px;
+    background-repeat: no-repeat;
     border: 1px solid #ccc;
-    padding-left: 40px;
-    font-size: 16px;
     font-family: raleway;
+    font-size: 16px;
+    height: 95px;
     margin-bottom: 30px
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 40px;
+    resize: none;
+    width: 82%;
 }
 
 #submit1 {
+    background-color: #FFBC00;
+    border: 1px solid #FFCB00;
+    border-radius: 5px
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: center;
     text-decoration: none;
     width: 100%;
-    text-align: center;
-    display: block;
-    background-color: #FFBC00;
-    color: #fff;
-    border: 1px solid #FFCB00;
-    padding: 10px 0;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 5px
 }
 
 span {
@@ -98,47 +98,47 @@ span {
 }
 
 button {
-    width: 10%;
-    height: 45px;
-    border-radius: 3px;
     background-color: #cd853f;
+    border-radius: 3px;
     color: #fff;
+    cursor: pointer
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    cursor: pointer
+    height: 45px;
+    width: 10%;
 }
 
 .division {
-    width: 50%;
     height: 100px;
+    width: 50%;
 }
 
 .back-to-top {
-    cursor: pointer;
-    position: fixed;
     bottom: 20px;
-    right: 20px;
+    cursor: pointer;
     display: none;
+    position: fixed;
+    right: 20px;
 }
 
 .highlght {
     background-color: #f8ff2e;
 }
 
-.field { 
+.field {
+    border: 2px groove (internal value);
     display: block;
     margin-left: 2px;
     margin-right: 2px;
-    padding-top: 0.35em;
     padding-bottom: 0.625em;
     padding-left: 0.75em;
     padding-right: 0.75em;
-    border: 2px groove (internal value);
+    padding-top: 0.35em;
 }
 
 .boxed {
     border: 1px solid;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
