@@ -37,7 +37,7 @@
             <h3>Calculator</h3>
             <hr>
             <h1>Congratulations!!!</h1>
-            <font color="white">You can save upto <span id="unit" style="color: #feff14;font-weight: 900;"></span> units per month by installing a <span id="solar" style="color: #feff14;font-weight: 900;"></span> KWP solar rooftop system on <span id="display" style="color: #feff14;font-weight: 900;"></span>  sq.ft of roof space.<br><br></font>
+            <strong>You can save upto <span id="unit"></span> units per month by installing a <span id="solar"></span> KWP solar rooftop system on <span id="display"></span>  sq.ft of roof space.<br><br></strong>>
             <a href="calculator.php" id="submit1">To know more</a><br>
                 <a href="#" onclick="popup()"><u>Re-Enter Rooftop area</u></a>
         </form>
