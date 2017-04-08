@@ -24,7 +24,6 @@
         <a href="#" id="submit1" onclick="check_empty()">Submit</a>
         </form>
     </div>
-    <!-- Popup Div Ends Here -->
 </div>
 
 <div id="xyz">
