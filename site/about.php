@@ -136,14 +136,14 @@
             </div>
             <div class="col-sm-4 text-center">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                <h3>Rajendra Singh
+                <h3>Virendra Singh
                     <br>
                     <small>Co Founder</small>
                 </h3>
             </div>
             <div class="col-sm-4 text-center">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                <h3>Virendra Singh
+                <h3>Rajendra Singh
                     <br>
                     <small>Co Founder</small>
                 </h3>
