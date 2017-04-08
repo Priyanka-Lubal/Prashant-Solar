@@ -62,7 +62,7 @@
                     <strong><a href="tel:+91 98732 55548​⁠​">+91 98732 55548</a>​⁠​</strong>
                 </p>
                 <p>Email:
-                    <strong><a href="mailto:sudhansh2006@yahoo.com">sudhansh2006@yahoo.com</a></strong>
+                    <strong><a href="mailto:info@prashantsolar.com">info@prashantsolar.com</a></strong>
                 </p>
                 <p>Address:
                     <strong>
