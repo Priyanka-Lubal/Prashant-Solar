@@ -29,7 +29,7 @@ CSS settings for HTML div Exact Center
 }
 
 img#close {
-    cursor: pointer
+    cursor: pointer;
     position: absolute;
     right: -14px;
     top: -14px;
@@ -54,12 +54,12 @@ div#popupContact {
 }
 
 #name {
-    background-position: 5px 7px
+    background-position: 5px 7px;
     background-repeat: no-repeat;
 }
 
 #email {
-    background-position: 5px 7px
+    background-position: 5px 7px;
     background-repeat: no-repeat;
 }
 
@@ -70,7 +70,7 @@ textarea {
     font-family: raleway;
     font-size: 16px;
     height: 95px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
     margin-top: 30px;
     padding: 10px;
     padding-left: 40px;
@@ -81,7 +81,7 @@ textarea {
 #submit1 {
     background-color: #FFBC00;
     border: 1px solid #FFCB00;
-    border-radius: 5px
+    border-radius: 5px;
     color: #fff;
     cursor: pointer;
     display: block;
@@ -101,7 +101,7 @@ button {
     background-color: #cd853f;
     border-radius: 3px;
     color: #fff;
-    cursor: pointer
+    cursor: pointer;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     height: 45px;
@@ -126,7 +126,14 @@ button {
 }
 
 .field {
-    border: 2px groove (internal value);
+    border-bottom-style: groove;
+    border-bottom-width: 2px;
+    border-left-style: groove;
+    border-left-width: 2px;
+    border-right-style: groove;
+    border-right-width: 2px;
+    border-top-style: groove;
+    border-top-width: 2px;
     display: block;
     margin-left: 2px;
     margin-right: 2px;
