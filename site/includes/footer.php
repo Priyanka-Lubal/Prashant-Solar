@@ -62,8 +62,9 @@
                     <a href="contact.php"> Contact Us</a> |
                 </p>
                 <p class="name">Copyright &copy; 2017 Prashant Solar. All Rights Reserved</p>
-                <p class="about">Developed by <a href="https://www.linkedin.com/in/meet-gopani-5b2120139/">Meet
-                        Gopani</a> and <a href="https://www.linkedin.com/in/priyanka-lubal-0679a8125/">Priyanka
+                <p class="about">Developed by <a href="https://www.linkedin.com/in/meet-gopani-5b2120139/"
+                                                 target="_blank">Meet
+                        Gopani</a> and <a href="https://www.linkedin.com/in/priyanka-lubal-0679a8125/" target="_blank">Priyanka
                         Lubal</a></p>
             </div>
         </div>
