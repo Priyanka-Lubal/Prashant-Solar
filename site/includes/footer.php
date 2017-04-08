@@ -41,7 +41,7 @@
             <div class="footer-center col-md-4 col-sm-6">
                 <div>
                     <i class="fa fa-map-marker"></i>
-                    <p><span>Additional M. I. D. C, District Thane</span> Thane, Maharashtra, India</p>
+                    <p>Maharashtra, India</p>
                 </div>
                 <div>
                     <a href="tel:+91 79777 47687​⁠​"><i class="fa fa-phone"></i></a>
