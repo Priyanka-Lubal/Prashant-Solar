@@ -9,8 +9,7 @@
 <a href="index.php"> <img class="img-responsive img-left brand" src="img/SOLER_LOGO.png"
                           style="height: 150px; padding: 5px;"> </a>
 <div class="brand">Prashant Solar</div>
-<div class="address-bar" style="font: 'Rage Italic'">Green Is The New Gold</div>
-
+<div class="brand" style="font-size: 4em">"Green Is The New Gold"</div>
 
 
 <!-- Navigation -->
