@@ -26,7 +26,8 @@
                     renewable energy.
                     They have been running successfully their company Prashant Plastic Industries LLP amd are now
                     looking to diversify into this new venture.
-                    Click to know more about <a href="http://www.ppillp.com">Prashant Plastic Industries</a>
+                    Click to know more about <a href="http://www.ppillp.com" target="_blank">Prashant Plastic
+                        Industries</a>
 
                 </p>
                 <div class="icons">
@@ -61,7 +62,9 @@
                     <a href="contact.php"> Contact Us</a> |
                 </p>
                 <p class="name">Copyright &copy; 2017 Prashant Solar. All Rights Reserved</p>
-                <p class="about">Developed by Meet Gopani and Priyanka Lubal</p>
+                <p class="about">Developed by <a href="https://www.linkedin.com/in/meet-gopani-5b2120139/">Meet
+                        Gopani</a> and <a href="https://www.linkedin.com/in/priyanka-lubal-0679a8125/">Priyanka
+                        Lubal</a></p>
             </div>
         </div>
     </div>
