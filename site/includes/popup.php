@@ -34,10 +34,10 @@
         <!-- Contact Us Form -->
         <form action="#" id="form1" method="post" name="form">
             <img id="close" src="img/close-128.png" height="25px" onclick="hide()">
-            <h2>Calculator</h2>
+            <h3>Calculator</h3>
             <hr>
-            <h1>Congratulations!</h1>
-            <label>You can save upto </label> <span id="unit"></span><label> units per month by installing a <span id="solar"></span> KWP solar system rooftop system on <span id="display"></span>  sq.ft of roof space.<br><br>
+            <h1>Congratulations!!!</h1>
+            <font color="white">You can save upto <span id="unit" style="color: #feff14;font-weight: 900;"></span> units per month by installing a <span id="solar" style="color: #feff14;font-weight: 900;"></span> KWP solar system rooftop system on <span id="display" style="color: #feff14;font-weight: 900;"></span>  sq.ft of roof space.<br><br></font>
             <a href="calculator.php" id="submit1">To know more</a><br>
                 <a href="#" onclick="popup()"><u>Re-Enter Rooftop area</u></a>
         </form>

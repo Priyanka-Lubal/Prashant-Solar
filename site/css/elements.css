@@ -13,6 +13,7 @@ CSS settings for HTML div Exact Center
     position: fixed;
     background-color: #343434;
     overflow: auto;
+
 }
 
 
@@ -41,16 +42,15 @@ div#popupContact {
     top: 17%;
     margin-left: -202px;
     font-family: 'Raleway', sans-serif;
+	background-image: url('../img/popup.jpg');
 }
 
 #form1 {
     max-width: 500px;
     min-width: 250px;
     padding: 10px 50px;
-    border: 2px solid gray;
     border-radius: 10px;
     font-family: raleway;
-    background-color: #fff;
 }
 
 #name {
@@ -134,7 +134,6 @@ button {
     padding-left: 0.75em;
     padding-right: 0.75em;
     border: 2px groove (internal value);
-}
 }
 
 .boxed {
