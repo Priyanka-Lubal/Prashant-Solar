@@ -27,7 +27,7 @@
                     They have been running successfully their company Prashant Plastic Industries LLP amd are now
                     looking to diversify into this new venture.
                     Click to know more about <a href="http://www.ppillp.com" target="_blank">Prashant Plastic
-                        Industries</a>
+                        Industries LLP</a>
 
                 </p>
                 <div class="icons">
