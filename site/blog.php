@@ -105,7 +105,7 @@
                     They have saved more than RE. 50,000/- by installing the projext.
                     Not only in terms of money they ahve contributed to environmenr
                     By saving lot of trees and reducing carbon emmissions</p>
-                <hr>
+
             </div>
         </div>
     </div>
