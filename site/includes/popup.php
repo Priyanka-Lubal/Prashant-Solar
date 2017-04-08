@@ -35,9 +35,8 @@
         <!-- Contact Us Form -->
         <form action="#" id="form1" method="post" name="form">
             <img id="close" src="img/close-128.png" height="25px" onclick="hide()">
-            <h3>Calculator</h3>
-            <hr>
-            <h1>Congratulations!!!</h1>
+            <h3><u>Calculator</u></h3>
+            <h3>Congratulations!!!</h3>
             <strong>You can save upto <span id="unit"></span> units per month by installing a <span id="solar"></span>
                 KWP solar rooftop system on <span id="display"></span> sq.ft of roof space.<br><br></strong>
             <a href="calculator.php" id="submit1">To know more</a><br>
