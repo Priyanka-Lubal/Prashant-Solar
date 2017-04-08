@@ -99,12 +99,12 @@
                     <br>
                     <small>October 13, 2013</small>
                 </h2>
-                <p>A 20KW solar module plant for generating electricity for their manufacturing plant.
-                    80 panels of 250 watt has been used with cell capacity of 18.4%.
-                    It has been a year since the project installed and is running successfully.
-                    They have saved more than RE. 50,000/- by installing the projext.
-                    Not only in terms of money they ahve contributed to environmenr
-                    By saving lot of trees and reducing carbon emmissions</p>
+                <p>A 20KW solar module plant is used for generating electricity in their manufacturing unit.
+                    80 panels of 250 watt has been used with cell efficiency of 18.4%.
+                    It has been more than 3 years since the project was installed and is running successfully.
+                    They have saved more than &#8377; 50,000/- per month by installing the project.
+                    Not only in terms of money, they have contributed to environment
+                    by saving lot of trees and reducing carbon emissions</p>
 
             </div>
         </div>
