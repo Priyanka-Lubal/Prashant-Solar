@@ -82,8 +82,8 @@
                                     <td><span id="rooftop"></span> Sq. ft</td>
                                 </tr>
                                 <tr>
-                                    <td>Solar Capacity</td>
-                                    <td><span id="capacity"></span> * kWp</td>
+                                    <td>Solar Capacity installed (by areaa)</td>
+                                    <td><span id="capacity"></span>-<span id="s2"></span>  kWp</td>
                                 </tr>
                                 <tr>
                                     <td>Total energy generated in one year</td>
@@ -135,6 +135,12 @@
                             </table>
                         </div>
                     </div>
+                </div>
+                <div align="left">
+                <ul type="3">
+                    <li>State Policy - 30% subsidy is available on the total project cost (Depending on the state)</li>
+                    <li>Central Govt Policy - Extra subsidy is available on the project cost</li>
+                </ul>
                 </div>
             </div>
         </div>

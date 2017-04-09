@@ -4,6 +4,7 @@
 // Validating Empty Field
 var area = 0;
 var solarsystem = 0;
+var s2 = 0;
 var saved = 0;
 var energy = 0;
 
@@ -12,9 +13,11 @@ function save() {
     if(area >= 100)
     {
         solarsystem = Math.floor(area/100);
+        s2 = solarsystem + 1;
         saved = solarsystem*120;
         energy = saved*12;
         localStorage.setItem("myArea", area);
+        localStorage.setItem("mys2", s2);
         localStorage.setItem("myEnergy", energy);
         localStorage.setItem("myCapacity", solarsystem);
         localStorage.setItem("myUnits", saved);
@@ -40,13 +43,13 @@ function submit() {
 }
 
 function calc_load() {
-	total_load = 0;
+    var total_load = 0;
 	var cost_battery = 0;
 	var cost_inverter = 0;
 	var cost_bos = 0;
 	var cost_panel = 0;
-	var project_cost;
-	var yearly_saved;
+	var project_cost = 0;
+	var yearly_saved = 0;
     for (i = 0; i <= 20; i++) {
 
         total_load = total_load + (Number($('#qty_' + i).val()) * Number($('#watt_' + i).val()));
@@ -56,38 +59,24 @@ function calc_load() {
 	{
         cost_panel = 32 * total_load;
 
-        cost_battery = 25 * total_load;
+        cost_battery = Math.floor(12.5 * total_load);
 
-        cost_inverter = 15 * total_load;
+        cost_inverter = Math.floor(7.5 * total_load);
 
         cost_bos = 15 * total_load;
 
         project_cost = cost_bos + cost_inverter + cost_battery + cost_panel;
 
         yearly_saved = Math.floor((project_cost * 13)/100);
+
+        localStorage.setItem("myLoad", total_load);
+        localStorage.setItem("myPanel", cost_panel);
+        localStorage.setItem("myBattery", cost_battery);
+        localStorage.setItem("myInverter", cost_inverter);
+        localStorage.setItem("myBos", cost_bos);
+        localStorage.setItem("mySavings", yearly_saved);
+        localStorage.setItem("myCost", project_cost);
 	}
-	else if(total_load=0)
-	{	
-		cost_panel = 0;
-
-        cost_battery = 0;
-
-        cost_inverter = 0;
-
-        cost_bos = 0;
-
-        project_cost = 0;
-
-        yearly_saved = 0;
-	}
-
-    localStorage.setItem("myLoad", total_load);
-    localStorage.setItem("myPanel", cost_panel);
-    localStorage.setItem("myBattery", cost_battery);
-    localStorage.setItem("myInverter", cost_inverter);
-    localStorage.setItem("myBos", cost_bos);
-    localStorage.setItem("mySavings", yearly_saved);
-    localStorage.setItem("myCost", project_cost);
 
     $('#total_load').val(total_load);
 }
@@ -103,6 +92,7 @@ function display_in_calculator() {
     document.getElementById('inverter').innerHTML = localStorage.getItem("myInverter");
     document.getElementById('bos').innerHTML = localStorage.getItem("myBos");
     document.getElementById('savings').innerHTML = localStorage.getItem("mySavings");
+    document.getElementById('s2').innerHTML = localStorage.getItem("mys2");
 }
 
 function check_empty() {
