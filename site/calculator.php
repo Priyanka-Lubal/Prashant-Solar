@@ -234,7 +234,7 @@
                             </td>
                         </tr>
                     </table>
-                    <p><a href="result.php" id="submit" class="btn btn-primary" role="button">Submit</a></p>
+                    <p><a href="#" onclick="validation()" id="submit" class="btn btn-primary" role="button">Submit</a></p>
                 </div>
             </center>
         </div>
