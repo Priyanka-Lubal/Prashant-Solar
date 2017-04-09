@@ -82,7 +82,7 @@
                                     <td><span id="rooftop"></span> Sq. ft</td>
                                 </tr>
                                 <tr>
-                                    <td>Solar Capacity installed (by areaa)</td>
+                                    <td>Solar Capacity installed (by area)</td>
                                     <td><span id="capacity"></span>-<span id="s2"></span>  kWp</td>
                                 </tr>
                                 <tr>
