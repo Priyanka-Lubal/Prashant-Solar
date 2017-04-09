@@ -1,7 +1,6 @@
 /**
  * Created by acer on 3/8/2017.
  */
-// Validating Empty Field
 var area = 0;
 var solarsystem = 0;
 var s2 = 0;
