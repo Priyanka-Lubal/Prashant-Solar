@@ -155,9 +155,3 @@ document.getElementById("name")
             document.getElementById("result").click();
         }
     });
-
-// $("#name").keyup(function(event){
-//     if(event.keyCode == 13){
-//         $("#submit1").click();
-//     }
-// });
