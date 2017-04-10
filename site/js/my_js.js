@@ -22,11 +22,13 @@ function save() {
         s2 = solarsystem + 1;
         saved = solarsystem*120;
         energy = saved*12;
+        yearly_saved = saved * 14 * 12;
         localStorage.setItem("myArea", area);
         localStorage.setItem("mys2", s2);
         localStorage.setItem("myEnergy", energy);
         localStorage.setItem("myCapacity", solarsystem);
         localStorage.setItem("myUnits", saved);
+        localStorage.setItem("mySavings", yearly_saved);
     }
     else
     {
@@ -75,17 +77,13 @@ function calc_load() {
         cost_bos = 15 * total_load;
     }
 
-    project_cost = cost_bos + cost_inverter + cost_battery + cost_panel;
 
-    yearly_saved = saved * 14 * 12;
 
     localStorage.setItem("myLoad", total_load);
     localStorage.setItem("myPanel", cost_panel);
     localStorage.setItem("myBattery", cost_battery);
     localStorage.setItem("myInverter", cost_inverter);
     localStorage.setItem("myBos", cost_bos);
-    localStorage.setItem("mySavings", yearly_saved);
-    localStorage.setItem("myCost", project_cost);
 
     $('#total_load').val(total_load);
 }
