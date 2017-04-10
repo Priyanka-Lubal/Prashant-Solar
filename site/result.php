@@ -121,7 +121,7 @@
                                     <td>&#8377; <span id="panel"></span></td>
                                 </tr>
                                 <tr>
-                                    <td>Cost Of Batteries</td>
+                                    <td>Cost of Batteries</td>
                                     <td>&#8377; <span id="battery"></span></td>
                                 </tr>
                                 <tr>

@@ -77,7 +77,7 @@ function calc_load() {
 
     project_cost = cost_bos + cost_inverter + cost_battery + cost_panel;
 
-    yearly_saved = Math.floor((project_cost * 13)/100);
+    yearly_saved = saved * 14 * 12;
 
     localStorage.setItem("myLoad", total_load);
     localStorage.setItem("myPanel", cost_panel);

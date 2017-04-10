@@ -16,8 +16,9 @@
                 </p>
                 <div class="icons">
                     <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="https://twitter.com/SolarPrashant"><i class="fa fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/prashant-solar-5b0349140/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://twitter.com/SolarPrashant" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/prashant-solar-5b0349140/" target="_blank"><i
+                                class="fa fa-linkedin"></i></a>
                     <a href="#"><i class="fa fa-google-plus"></i></a>
                     <a href="#"><i class="fa fa-instagram"></i></a>
                 </div>

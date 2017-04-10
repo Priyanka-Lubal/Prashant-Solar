@@ -59,7 +59,7 @@
             </div>
             <div class="col-md-4">
                 <p>Phone:
-                    <strong><a href="tel:+91 98732 55548​⁠​">+91 98732 55548</a>​⁠​</strong>
+                    <strong><a href="tel:+91 79777 47687​⁠​">+91 79777 47687</a>​⁠​</strong>
                 </p>
                 <p>Email:
                     <strong><a href="mailto:info@prashantsolar.com">info@prashantsolar.com</a></strong>
