@@ -60,7 +60,7 @@
                             <img class="img-responsive img-full" src="img/slide1.jpg" alt="">
                         </div>
                         <div class="item">
-                            <img class="img-responsive img-full" src="img/slide2.jpg" alt="">
+                            <img class="img-responsive img-full" src="img/bg3.jpg" alt="">
                         </div>
                         <div class="item">
                             <img class="img-responsive img-full" src="img/slide3.jpg" alt="">
