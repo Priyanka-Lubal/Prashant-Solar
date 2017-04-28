@@ -8,7 +8,7 @@
                     Being in the industry for almost 35 years, they wanted to change with the industrial evolution.
                     Always, being environment and soroundings on their mind, they wanted to always do something for
                     renewable energy.
-                    They have been running successfully their company Prashant Plastic Industries LLP amd are now
+                    They have been running successfully their company Prashant Plastic Industries LLP and are now
                     looking to diversify into this new venture.
                     Click to know more about <a href="http://www.ppillp.com" target="_blank">Prashant Plastic
                         Industries LLP</a>
