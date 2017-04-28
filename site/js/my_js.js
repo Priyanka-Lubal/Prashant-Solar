@@ -6,7 +6,7 @@ var solarsystem = 0;
 var s2 = 0;
 var saved = 0;
 var energy = 0;
-var total_load = 0;
+var total_load;
 var cost_battery = 25000;
 var cost_inverter = 15000;
 var cost_bos = 15000;
@@ -51,8 +51,8 @@ function submit() {
 }
 
 function calc_load() {
+    total_load=0;
     for (i = 0; i <= 20; i++) {
-
         total_load = total_load + (Number($('#qty_' + i).val()) * Number($('#watt_' + i).val()));
 
     }
