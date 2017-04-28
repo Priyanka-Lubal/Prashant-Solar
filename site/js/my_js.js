@@ -10,7 +10,7 @@ var total_load;
 var cost_battery = 25000;
 var cost_inverter = 15000;
 var cost_bos = 15000;
-var cost_panel = 32000;
+var cost_panel = 0;
 var project_cost = 0;
 var yearly_saved = 0;
 
@@ -56,10 +56,9 @@ function calc_load() {
         total_load = total_load + (Number($('#qty_' + i).val()) * Number($('#watt_' + i).val()));
 
     }
+    cost_panel = 32 * total_load;
 	if (total_load<=1000)
-	{
-        cost_panel = 32000;
-
+    {
         cost_bos = 15000;
 
         cost_battery = 25000;
@@ -68,8 +67,6 @@ function calc_load() {
 	}
 	else if(total_load>1000)
     {
-        cost_panel = 32 * total_load;
-
         cost_battery = Math.ceil(total_load/2000) * 25000;
 
         cost_inverter = Math.ceil(total_load/2000) * 15000;
